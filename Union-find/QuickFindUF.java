@@ -1,5 +1,6 @@
-//Quick-find approach to dynamic connectivity approach
+//Quick-find approach to union-find problem
 //eager approach
+// p and q are connected iff they have the same id
 
 public class QuickFindUF
 {
