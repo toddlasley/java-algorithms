@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.StdStats;
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
@@ -5,84 +7,127 @@ import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 public class Percolation {
     
     private int N;
-    private boolean[][] PercolationObject;
+    private boolean[] PercolationObject;
     private WeightedQuickUnionUF UFObject;
     
-    public Percolation(int n) {
+    public Percolation(int n) 
+    {
         this.N = n;
-        this.PercolationObject = new boolean[n][n];
+        this.PercolationObject = new boolean[n * n];
         this.UFObject = new WeightedQuickUnionUF((n * n) + 1);
     }
 
     // open site (row, col) if it is not open already
-    public void open(int row, int col) {
+    public void open(int row, int col) 
+    {
         if(this.isFull(row, col))
         {
-            int x = row - 1;
-            int y = col - 1;
-            this.PercolationObject[x][y] = true;
-            //TODO: handle UFObject
+            System.out.printf("Opening site at row: %d, column: %d\n", row, col);
+            
+            this.PercolationObject[this.getUFObjectIndex(row, col)] = true;
+            
+            boolean isTopRow = row == 1;
+            //is this on the "top row"?            
+            if(isTopRow)
+            {
+                //if so connect to "wildcard" site
+                this.UFObject.union(this.getUFObjectIndex(row, col), 
+                                    this.N * this.N);
+            }
             
             //check site to the left of original site
-            if(y - 1 > -1)
+            if(col - 1 > 0)
             {
-                if(this.isFull(row, col - 1))
+                if(this.isOpen(row, col - 1))
                 {
-                    this.PercolationObject[x][y - 1] = true;
-                    //TODO: handle UFObject; connect to 'odd' character
+                    this.UFObject.union(this.getUFObjectIndex(row, col), 
+                                        this.getUFObjectIndex(row, col - 1));
                 }
             }
             
             //check site to the right of original site
-            if(y + 1 < this.N)
+            if(col + 1 <= this.N)
             {
-                if(this.isFull(row, col + 1))
+                if(this.isOpen(row, col + 1))
                 {
-                    this.PercolationObject[x][y + 1] = true;
-                    //TODO: handle UFObject
+                    this.UFObject.union(this.getUFObjectIndex(row, col), 
+                                        this.getUFObjectIndex(row, col + 1));
                 }           
             }
             
             //check site above the original site
-            if(x - 1 > 0)
+            if(row - 1 > 0)
             {
-                if(this.isFull(row - 1, col))
+                if(this.isOpen(row - 1, col))
                 {
-                    this.PercolationObject[x - 1][y] = true;
-                    //TODO: handle UFObject
+                    this.UFObject.union(this.getUFObjectIndex(row, col), 
+                                        this.getUFObjectIndex(row - 1, col));
                 }
             }
             
             //check site below the original site
-            if(x + 1 < this.N)
+            if(row + 1 <= this.N)
             {
-                if(this.isFull(row + 1, col))
+                if(this.isOpen(row + 1, col))
                 {
-                    this.PercolationObject[x + 1][y] = true;
-                    //TODO: handle UFObject
+                    this.UFObject.union(this.getUFObjectIndex(row, col), 
+                                        this.getUFObjectIndex(row + 1, col));
+//                    if(isTopRow)
+//                    {
+//                        this.UFObject.union(this.getUFObjectIndex(row + 1, col), 
+//                                            this.getUFObjectIndex(row, col));
+//                    }
+//                    else
+//                    {
+//                        this.UFObject.union(this.getUFObjectIndex(row, col), 
+//                                            this.getUFObjectIndex(row + 1, col));
+//                    }                    
                 }
             }
         }
     }
     
     // is site (row, col) open?
-    public boolean isOpen(int row, int col){
-        return PercolationObject[row - 1][col - 1];
+    public boolean isOpen(int row, int col)
+    {
+        return PercolationObject[this.getUFObjectIndex(row, col)];
     }
 
     // is site (row, col) full?
-    public boolean isFull(int row, int col){
-        return !PercolationObject[row - 1][col - 1];
+    public boolean isFull(int row, int col)
+    {
+        return !PercolationObject[this.getUFObjectIndex(row, col)];
     }
 
     // number of open sites
-    public int numberOfOpenSites(){
-        return 0;
+    public int numberOfOpenSites()
+    {
+        int openSites = 0;
+        
+        for(int i = 0; i < this.PercolationObject.length; i++)
+        {
+            if(this.PercolationObject[i])
+            {
+                openSites++;
+            }
+        }
+        
+        return openSites;
     }
     
     // does the system percolate?
-    public boolean percolates(){
-        return false;
+    public boolean percolates()
+    {
+        boolean percolates = false;
+        for(int i = this.getUFObjectIndex(this.N, 1); i < this.PercolationObject.length; i++)
+        {
+            if(this.UFObject.connected(i, this.N * this.N))
+            {
+                percolates = true;
+                break;
+            }
+        }
+        return percolates;
     }
     
     private int getUFObjectIndex(int row, int column)
@@ -91,6 +136,19 @@ public class Percolation {
     }
 
     // test client (optional)
-    public static void main(String[] args){
+    public static void main(String[] args)
+    {
+        int n = StdIn.readInt();
+        Percolation percolation = new Percolation(n);
+        
+        while(!percolation.percolates())
+        {
+            int row = StdRandom.uniform(1, n + 1);
+            int column = StdRandom.uniform(1, n + 1);
+            
+            percolation.open(row, column);
+        }
+        
+        StdOut.println("It percolates!\n");
     }
 }
