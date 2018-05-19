@@ -12,6 +12,10 @@ public class Percolation {
     
     public Percolation(int n) 
     {
+        if(n <= 0)
+        {
+            throw new java.lang.IllegalArgumentException();
+        }
         this.N = n;
         this.PercolationObject = new boolean[n * n];
         this.UFObject = new WeightedQuickUnionUF((n * n) + 1);
@@ -20,6 +24,11 @@ public class Percolation {
     // open site (row, col) if it is not open already
     public void open(int row, int col) 
     {
+        if(row < 0 || col < 0 || row > this.N || col > this.N)
+        {
+            throw new java.lang.IllegalArgumentException();
+        }
+        
         if(this.isFull(row, col))
         {
             System.out.printf("Opening site at row: %d, column: %d\n", row, col);
@@ -71,17 +80,7 @@ public class Percolation {
                 if(this.isOpen(row + 1, col))
                 {
                     this.UFObject.union(this.getUFObjectIndex(row, col), 
-                                        this.getUFObjectIndex(row + 1, col));
-//                    if(isTopRow)
-//                    {
-//                        this.UFObject.union(this.getUFObjectIndex(row + 1, col), 
-//                                            this.getUFObjectIndex(row, col));
-//                    }
-//                    else
-//                    {
-//                        this.UFObject.union(this.getUFObjectIndex(row, col), 
-//                                            this.getUFObjectIndex(row + 1, col));
-//                    }                    
+                                        this.getUFObjectIndex(row + 1, col));                  
                 }
             }
         }
@@ -90,12 +89,22 @@ public class Percolation {
     // is site (row, col) open?
     public boolean isOpen(int row, int col)
     {
+        if(row < 0 || col < 0 || row > this.N || col > this.N)
+        {
+            throw new java.lang.IllegalArgumentException();
+        }
+        
         return PercolationObject[this.getUFObjectIndex(row, col)];
     }
 
     // is site (row, col) full?
     public boolean isFull(int row, int col)
     {
+        if(row < 0 || col < 0 || row > this.N || col > this.N)
+        {
+            throw new java.lang.IllegalArgumentException();
+        }
+        
         return !PercolationObject[this.getUFObjectIndex(row, col)];
     }
 
