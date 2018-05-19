@@ -1,10 +1,13 @@
+package percolation;
+
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
-import edu.princeton.cs.algs4.StdStats;
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
-public class Percolation {
+
+public class Percolation 
+{
     
     private int N;
     private boolean[] PercolationObject;
@@ -31,7 +34,6 @@ public class Percolation {
         
         if(this.isFull(row, col))
         {
-            System.out.printf("Opening site at row: %d, column: %d\n", row, col);
             
             this.PercolationObject[this.getUFObjectIndex(row, col)] = true;
             
