@@ -45,7 +45,8 @@ public class ThreeSumBinarySearch
                     else if(key > a[mid])
                         low = mid + 1;
                     else
-                        count++;
+                        if(mid > j)
+                            count++;
                 }
             }
         
