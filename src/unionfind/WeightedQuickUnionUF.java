@@ -1,4 +1,4 @@
-//Weighted quick-union approach to union-find problem
+package unionfind;//Weighted quick-union approach to union-find problem
 //same as quick-union but maintain an extra array sz to count 
 //number of objects in the tree rooted at i
 

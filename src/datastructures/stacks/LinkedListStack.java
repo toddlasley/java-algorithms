@@ -1,3 +1,5 @@
+package datastructures.stacks;
+
 public class LinkedListStack<T>
 {
     private Node first = null;

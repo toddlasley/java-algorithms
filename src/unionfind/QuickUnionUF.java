@@ -1,4 +1,4 @@
-//Quick-union approach to union-find problem
+package unionfind;//Quick-union approach to union-find problem
 //lazy approach
 //creating a tree structure of objects that point to their parent which points to
 //a parent which points to a parent... until hitting the root

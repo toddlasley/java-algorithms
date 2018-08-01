@@ -1,3 +1,5 @@
+package datastructures.queues;
+
 public class LinkedListQueue<T>
 {
     private Node first, last;

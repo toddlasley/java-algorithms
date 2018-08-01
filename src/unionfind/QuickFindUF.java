@@ -1,4 +1,4 @@
-//Quick-find approach to union-find problem
+package unionfind;//Quick-find approach to union-find problem
 //eager approach
 // p and q are connected iff they have the same id
 

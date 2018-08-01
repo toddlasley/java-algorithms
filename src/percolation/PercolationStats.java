@@ -1,7 +1,7 @@
-import percolation.Percolation;
+package percolation;
+
 import edu.princeton.cs.algs4.StdStats;
 import edu.princeton.cs.algs4.StdIn;
-import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 
 public class PercolationStats
@@ -46,7 +46,7 @@ public class PercolationStats
     {   
         for(int i = 0; i < this.Trials; i++)
         {
-            Percolation p = new Percolation(this.N);
+            percolation.Percolation p = new percolation.Percolation(this.N);
             
             while(!p.percolates())
             {
@@ -61,8 +61,8 @@ public class PercolationStats
     
     public static void main(String[] args)
     {   
-        int n = StdIn.readInt();
-        int t = StdIn.readInt();
+        int n = 8;
+        int t = 1000;
         
         //n and trials respectively
         if(n <= 0 || t <= 0)
