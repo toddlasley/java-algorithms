@@ -1,3 +1,6 @@
+//"top-down" mergesort
+//running time will be proportional to N lg N, no matter the input
+
 package sorts;
 
 public class MergeSort {
@@ -30,7 +33,7 @@ public class MergeSort {
         for(int k = lo; k <= hi; k++)
             aux[k] = a[k];
 
-        
+
         int i = lo, j = mid + 1;
         for(int k = lo; k <= hi; k++){
             if(i > mid)
