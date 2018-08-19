@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22c745f3-740b-43df-9da7-fa117cfc077e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorts/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorts/MergeSort.java" afterDir="false" />
-    </list>
+    <list default="true" id="22c745f3-740b-43df-9da7-fa117cfc077e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,22 +23,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="19" />
+          <entry key="java" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="19" />
+          <entry key="JAVA" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7660" />
+          <entry key="java" value="10445" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7660" />
+          <entry key="JAVA" value="10445" />
         </counts>
       </usages-collector>
     </session>
@@ -51,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sorts/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+            <state relative-caret-position="527">
+              <caret line="66" column="5" selection-start-line="63" selection-start-column="4" selection-end-line="66" selection-end-column="5" />
               <folding>
                 <element signature="e#0#1815#0" expanded="true" />
                 <element signature="e#176#177#0" expanded="true" />
@@ -62,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sorts/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -83,6 +80,36 @@
               <caret line="28" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="e#0#742#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastructures/queues/ResizingArrayQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-134">
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/datastructures/queues/MaxPriorityQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#1769#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#1774#1775#0" expanded="true" />
+                <element signature="e#1815#1816#0" expanded="true" />
+                <element signature="e#1574#1583#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,6 +140,8 @@
         <option value="$PROJECT_DIR$/src/sorts/ShellSort.java" />
         <option value="$PROJECT_DIR$/src/sorts/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/sorts/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/Playground.java" />
+        <option value="$PROJECT_DIR$/src/datastructures/queues/MaxPriorityQueue.java" />
       </list>
     </option>
   </component>
@@ -147,12 +176,6 @@
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sorts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -162,7 +185,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534634964726" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534698610972" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -185,13 +208,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
+  <component name="RunManager" selected="Application.MaxPriorityQueue">
     <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sorts.InsertionSort" />
       <module name="java-algorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="percolation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxPriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructures.queues.MaxPriorityQueue" />
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructures.queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,12 +248,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Playground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Playground" />
+      <module name="java-algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.InsertionSort" />
       <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.MaxPriorityQueue" />
+      <item itemvalue="Application.Playground" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxPriorityQueue" />
+        <item itemvalue="Application.Playground" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.InsertionSort" />
       </list>
@@ -249,13 +296,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.32952183" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" visible="true" weight="0.32952183" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.32952183" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021322" side_tool="true" visible="true" weight="0.32952183" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5026652" side_tool="true" visible="true" weight="0.32952183" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4968017" weight="0.32952183" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -310,13 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastructures/queues/ResizingArrayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructures/stacks/ResizingArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -358,8 +398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sorts/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        <state relative-caret-position="527">
+          <caret line="66" column="5" selection-start-line="63" selection-start-column="4" selection-end-line="66" selection-end-column="5" />
           <folding>
             <element signature="e#0#1815#0" expanded="true" />
             <element signature="e#176#177#0" expanded="true" />
@@ -376,6 +416,45 @@
             <element signature="e#0#1822#0" expanded="true" />
             <element signature="e#1445#1446#0" expanded="true" />
             <element signature="e#1486#1487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructures/queues/ResizingArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Playground.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="e#70#71#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructures/queues/MaxPriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#1769#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#1774#1775#0" expanded="true" />
+            <element signature="e#1815#1816#0" expanded="true" />
+            <element signature="e#1574#1583#0" expanded="true" />
           </folding>
         </state>
       </provider>
