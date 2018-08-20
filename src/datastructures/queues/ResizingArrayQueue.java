@@ -43,6 +43,8 @@ public class ResizingArrayQueue<T>
     // shrink array to half its size when 1/4 full
     // this keeps the array between 25% and 100% full.
     // shrinking array to half when it's half full
+    // would be too expensive in the worst case
+    // (push-pop-push-pop-... sequence when array is full)
     public T dequeue()
     {
         if(this.isEmpty())
