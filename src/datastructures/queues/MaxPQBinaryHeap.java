@@ -91,7 +91,7 @@ public class MaxPQBinaryHeap<T extends Comparable<T>> {
     private void swim(int k){
         //if the parent (at k/2) is smaller than the value at k,
         //we need to move the value at k up the tree
-        while(k > 1 && less(this.pq[k/2], this.pq[k])){
+        while(k > 1 && this.less(this.pq[k/2], this.pq[k])){
             T swap = this.pq[k];
             this.pq[k] = this.pq[k/2];
             this.pq[k/2] = swap;
@@ -116,11 +116,11 @@ public class MaxPQBinaryHeap<T extends Comparable<T>> {
         //if left's index is within the bounds of n
         //and the parent is smaller than it,
         //this tree/subtree is not heap-ordered
-        if(left <= this.n && less(this.pq[k], this.pq[left]))
+        if(left <= this.n && this.less(this.pq[k], this.pq[left]))
             return false;
 
         //same for right as above for left
-        if(right <= this.n && less(this.pq[k], this.pq[right]))
+        if(right <= this.n && this.less(this.pq[k], this.pq[right]))
             return false;
 
         //recursive calls to finish checking the rest of the tree
@@ -137,7 +137,7 @@ public class MaxPQBinaryHeap<T extends Comparable<T>> {
     }
 
     //is x less than y?
-    private static boolean less(Comparable x, Comparable y){
+    private boolean less(Comparable x, Comparable y){
         return x.compareTo(y) < 0;
     }
 }
