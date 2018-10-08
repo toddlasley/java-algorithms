@@ -7,8 +7,8 @@ package ctci.arraysandstrings;
 
 public class StringCompression {
     public static String compress(String s){
-        //the code in getCompressedLength is largely duplicated, but this can help reduced overhead if the
-        //string has a lot of unique values and it enables us to initialize our StringBuilder with the resulting size
+        //the code in getCompressedLength is largely duplicated, but this can help reduce overhead if the
+        //string has a lot of unique values and it enables us to initialize our StringBuilder with the compressed size
         int compressedLength = getCompressedLength(s);
         if(s.length() <= compressedLength){
             return s;
