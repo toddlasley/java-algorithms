@@ -16,6 +16,7 @@ public class RotateMatrix {
             int last = n - 1 - layer;
 
             for(int i = first; i < last; i++){
+                // to account for indices on left and bottom sides
                 int offset = i - first;
 
                 //set the top aside
