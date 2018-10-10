@@ -7,24 +7,26 @@ package ctci.arraysandstrings;
 public class RotateMatrix {
     public static int[][] rotate(int[][] matrix) {
         if(matrix.length == 0 || matrix.length != matrix[0].length)
-            throw new IllegalArgumentException("Paramter must be a valid NxN matrix");
+            throw new IllegalArgumentException("Parameter must be a valid NxN matrix");
 
         int n = matrix.length;
         for(int layer = 0; layer < n/2; layer++){
+            //first and last serve as the "bounds" that we manipulate the matrix within
             int first = layer;
             int last = n - 1 - layer;
 
             for(int i = first; i < last; i++){
                 int offset = i - first;
 
+                //set the top aside
                 int top = matrix[first][i];
-
+                //copy left to top
                 matrix[first][i] = matrix[last - offset][first];
-
+                //copy bottom to left
                 matrix[last - offset][first] = matrix[last][last - offset];
-
+                //copy right to bottom
                 matrix[last][last - offset] = matrix[i][last];
-
+                //copy original top to right
                 matrix[i][last] = top;
             }
         }
