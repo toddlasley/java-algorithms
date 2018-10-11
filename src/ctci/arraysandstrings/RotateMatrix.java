@@ -5,7 +5,7 @@
 package ctci.arraysandstrings;
 
 public class RotateMatrix {
-    public static int[][] rotate(int[][] matrix) {
+    public static void rotate(int[][] matrix) {
         if(matrix.length == 0 || matrix.length != matrix[0].length)
             throw new IllegalArgumentException("Parameter must be a valid NxN matrix");
 
@@ -31,8 +31,6 @@ public class RotateMatrix {
                 matrix[i][last] = top;
             }
         }
-
-        return matrix;
     }
 
     public static void main(String[] args){
@@ -50,7 +48,7 @@ public class RotateMatrix {
             System.out.println("");
         }
 
-        matrix = rotate(matrix);
+        rotate(matrix);
 
         System.out.println("After rotation:");
 
