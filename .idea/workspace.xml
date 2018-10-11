@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22c745f3-740b-43df-9da7-fa117cfc077e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="22c745f3-740b-43df-9da7-fa117cfc077e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,44 +28,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="55" />
+          <entry key="java" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="55" />
+          <entry key="JAVA" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="23177" />
+          <entry key="java" value="24175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="23177" />
+          <entry key="JAVA" value="24175" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ctci/arraysandstrings/RotateMatrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="60" column="5" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ctci/arraysandstrings/ZeroMatrix.java">
+        <entry file="file://$PROJECT_DIR$/src/ctci/arraysandstrings/StringRotation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            <state relative-caret-position="51">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
               <folding>
-                <element signature="e#0#1948#0" expanded="true" />
+                <element signature="e#0#1293#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,6 +99,7 @@
         <option value="$PROJECT_DIR$/src/ctci/arraysandstrings/StringCompression.java" />
         <option value="$PROJECT_DIR$/src/ctci/arraysandstrings/RotateMatrix.java" />
         <option value="$PROJECT_DIR$/src/ctci/arraysandstrings/ZeroMatrix.java" />
+        <option value="$PROJECT_DIR$/src/ctci/arraysandstrings/StringRotation.java" />
       </list>
     </option>
   </component>
@@ -168,7 +158,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539227615242" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539228649624" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -193,10 +183,10 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ZeroMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="StringRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="10" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ctci.arraysandstrings.ZeroMatrix" />
+      <option name="MAIN_CLASS_NAME" value="ctci.arraysandstrings.StringRotation" />
       <module name="java-algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -204,7 +194,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ZeroMatrix" />
+        <item itemvalue="Application.StringRotation" />
       </list>
     </recent_temporary>
   </component>
@@ -360,20 +350,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ctci/arraysandstrings/IsUnique.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#1058#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ctci/arraysandstrings/OneAway.java" />
     <entry file="file://$PROJECT_DIR$/src/ctci/arraysandstrings/PalindromePermutation.java" />
     <entry file="file://$PROJECT_DIR$/src/ctci/arraysandstrings/URLify.java" />
-    <entry file="file://$PROJECT_DIR$/src/ctci/arraysandstrings/StringCompression.java" />
     <entry file="file://$PROJECT_DIR$/src/ctci/arraysandstrings/CheckPermutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
@@ -391,12 +369,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ctci/arraysandstrings/StringCompression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ctci/arraysandstrings/ZeroMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="e#0#1948#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ctci/arraysandstrings/OneAway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ctci/arraysandstrings/IsUnique.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#1058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ctci/arraysandstrings/StringRotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#1293#0" expanded="true" />
           </folding>
         </state>
       </provider>
