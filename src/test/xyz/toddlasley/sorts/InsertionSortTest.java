@@ -8,14 +8,38 @@ import static org.junit.Assert.*;
 public class InsertionSortTest {
 
     @Test
+    public void leavesSortedArrayAlone() {
+        Integer[] a = { 1, 2, 3, 4, 5};
+        InsertionSort.sort(a);
+
+        Assert.assertEquals(1, (int)a[0]);
+        Assert.assertEquals(2, (int)a[1]);
+        Assert.assertEquals(3, (int)a[2]);
+        Assert.assertEquals(4, (int)a[3]);
+        Assert.assertEquals(5, (int)a[4]);
+    }
+
+    @Test
+    public void sortsNumbersInRandomOrder() {
+        Integer[] a = { 3, 1, 5, 4, 2};
+        InsertionSort.sort(a);
+
+        Assert.assertEquals(1, (int)a[0]);
+        Assert.assertEquals(2, (int)a[1]);
+        Assert.assertEquals(3, (int)a[2]);
+        Assert.assertEquals(4, (int)a[3]);
+        Assert.assertEquals(5, (int)a[4]);
+    }
+
+    @Test
     public void sortsNumbersInReverseOrder() {
         Integer[] a = { 5, 4, 3, 2, 1};
         InsertionSort.sort(a);
 
-        Assert.assertEquals((int)a[0], 1);
-        Assert.assertEquals((int)a[1], 2);
-        Assert.assertEquals((int)a[2], 3);
-        Assert.assertEquals((int)a[3], 4);
-        Assert.assertEquals((int)a[4], 5);
+        Assert.assertEquals(1, (int)a[0]);
+        Assert.assertEquals(2, (int)a[1]);
+        Assert.assertEquals(3, (int)a[2]);
+        Assert.assertEquals(4, (int)a[3]);
+        Assert.assertEquals(5, (int)a[4]);
     }
 }
