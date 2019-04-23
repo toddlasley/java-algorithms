@@ -6,6 +6,8 @@
 
 package xyz.toddlasley.ctci.linkedlists;
 
+import xyz.toddlasley.ctci.linkedlists.types.LinkedListNode;
+
 public class Partition {
     public static LinkedListNode partition(LinkedListNode node, int x){
         LinkedListNode beforeStart = null;

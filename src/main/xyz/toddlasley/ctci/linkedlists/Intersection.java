@@ -5,6 +5,9 @@
 
 package xyz.toddlasley.ctci.linkedlists;
 
+import xyz.toddlasley.ctci.linkedlists.types.IntersectionResult;
+import xyz.toddlasley.ctci.linkedlists.types.LinkedListNode;
+
 public class Intersection {
     public static LinkedListNode findIntersection(LinkedListNode l1, LinkedListNode l2){
         if(l1 == null || l2 == null)

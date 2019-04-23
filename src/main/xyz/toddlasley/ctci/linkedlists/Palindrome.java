@@ -3,6 +3,8 @@
 
 package xyz.toddlasley.ctci.linkedlists;
 
+import xyz.toddlasley.ctci.linkedlists.types.LinkedListNode;
+
 import java.util.Stack;
 
 public class Palindrome {

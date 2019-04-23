@@ -6,6 +6,9 @@
 
 package xyz.toddlasley.ctci.linkedlists;
 
+import xyz.toddlasley.ctci.linkedlists.types.LinkedListNode;
+import xyz.toddlasley.ctci.linkedlists.types.PartialSum;
+
 public class SumLists {
     public static LinkedListNode addLists(LinkedListNode l1, LinkedListNode l2) {
         return addLists(l1, l2, 0);

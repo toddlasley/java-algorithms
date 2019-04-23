@@ -3,6 +3,8 @@
 
 package xyz.toddlasley.ctci.linkedlists;
 
+import xyz.toddlasley.ctci.linkedlists.types.LinkedListNode;
+
 public class LoopDetection {
     public static LinkedListNode findBeginning(LinkedListNode head){
         LinkedListNode slowRunner = head;

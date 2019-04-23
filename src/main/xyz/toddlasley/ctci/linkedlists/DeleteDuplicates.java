@@ -3,6 +3,8 @@
 //Solution: p. 208
 
 package xyz.toddlasley.ctci.linkedlists;
+import xyz.toddlasley.ctci.linkedlists.types.LinkedListNode;
+
 import java.util.HashSet;
 
 public class DeleteDuplicates {

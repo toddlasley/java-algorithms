@@ -3,6 +3,8 @@
 
 package xyz.toddlasley.ctci.linkedlists;
 
+import xyz.toddlasley.ctci.linkedlists.types.LinkedListNode;
+
 public class KthToLast {
     public static LinkedListNode returnKthToLast(LinkedListNode head, int k){
         LinkedListNode p1 = head;

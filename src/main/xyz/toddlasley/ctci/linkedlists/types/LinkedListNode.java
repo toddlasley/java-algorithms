@@ -1,8 +1,8 @@
-package xyz.toddlasley.ctci.linkedlists;
+package xyz.toddlasley.ctci.linkedlists.types;
 
 public class LinkedListNode {
-    int data;
-    LinkedListNode next;
+    public int data;
+    public LinkedListNode next;
 
     public LinkedListNode(){ }
 

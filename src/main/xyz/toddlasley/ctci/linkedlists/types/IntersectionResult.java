@@ -1,4 +1,4 @@
-package xyz.toddlasley.ctci.linkedlists;
+package xyz.toddlasley.ctci.linkedlists.types;
 
 public class IntersectionResult {
     public LinkedListNode tail;
