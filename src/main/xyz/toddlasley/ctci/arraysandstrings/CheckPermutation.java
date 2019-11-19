@@ -5,19 +5,20 @@ package xyz.toddlasley.ctci.arraysandstrings;
 
 public class CheckPermutation {
     public static boolean isPermutation(String s1, String s2){
-        if(s1.length() != s2.length())
+        if ( s1.length() != s2.length() )
             return false;
 
         int[] letters = new int[128]; //assuming ASCII character set
-        for(int i = 0; i < s1.length(); i++){
+
+        for ( int i = 0; i < s1.length(); i++ ) {
             letters[s1.charAt(i)]++;
         }
 
-        for(int i = 0; i < s2.length(); i++){
+        for ( int i = 0; i < s2.length(); i++ ) {
             char val = s2.charAt(i);
             letters[val]--;
 
-            if(letters[val] < 0){
+            if ( letters[val] < 0 ) {
                 return false;
             }
         }
