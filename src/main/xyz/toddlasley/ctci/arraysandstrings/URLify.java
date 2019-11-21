@@ -10,18 +10,18 @@ public class URLify {
         int spaces = 0;
         int index = 0;
 
-        for(int i = 0; i < trueLength; i++){
-            if(s[i] == ' ')
+        for ( int i = 0; i < trueLength; i++ ) {
+            if ( s[i] == ' ' )
                 spaces++;
         }
 
         index = trueLength + spaces * 2;
 
-        if(trueLength < s.length)
+         if ( trueLength < s.length )
             s[trueLength] = '\0'; //end the array
 
-        for(int i = trueLength - 1; i >= 0; i--){
-            if(s[i] == ' '){
+        for ( int i = trueLength - 1; i >= 0; i-- ) {
+            if ( s[i] == ' ' ) {
                 s[index - 1] = '0';
                 s[index - 2] = '2';
                 s[index - 3] = '%';
