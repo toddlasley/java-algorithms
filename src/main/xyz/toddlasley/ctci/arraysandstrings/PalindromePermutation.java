@@ -4,14 +4,16 @@
 package xyz.toddlasley.ctci.arraysandstrings;
 
 public class PalindromePermutation {
-    public static boolean isPermutationofPalindrome(String phrase){
+    public static boolean isPermutationofPalindrome(String phrase) {
         int countOdd = 0;
         int[] table = new int[Character.getNumericValue('z') - Character.getNumericValue('a') +1];
 
-        for(char c : phrase.toCharArray()){
+        for ( char c : phrase.toCharArray() ) {
             int x = getCharNumber(c);
-            if(x != -1) {
+
+            if ( x != -1 ) {
                 table[x]++;
+
                 if (table[x] % 2 == 1) {
                     countOdd++;
                 } else {
@@ -23,12 +25,12 @@ public class PalindromePermutation {
         return countOdd <= 1;
     }
 
-    public static int getCharNumber(char c){
+    public static int getCharNumber(char c) {
         int a = Character.getNumericValue('a');
         int z = Character.getNumericValue('z');
         int val = Character.getNumericValue(c);
 
-        if(a <= val && val <= z){
+        if ( a <= val && val <= z ) {
             return val - a;
         }
 
