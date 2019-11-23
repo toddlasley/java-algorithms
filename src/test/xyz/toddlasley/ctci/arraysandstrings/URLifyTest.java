@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class URLifyTest {
 
     @Test
-    public void replaceSpaces() {
+    public void replaceSpacesUrlifiesAString() {
         String s1 = "Todd Lasley  ";
         String s2 = "This is a string      ";
         String s3 = "Make it a URL234      ";

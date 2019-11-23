@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class IsUniqueTest {
 
     @Test
-    public void isUnique() {
+    public void isUniqueDetectsStringWithUniqueCharacters() {
         assertTrue(IsUnique.isUnique("abcdef"));
         assertTrue(IsUnique.isUnique("abc123"));
         assertFalse(IsUnique.isUnique("abc12a"));

@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class CheckPermutationTest {
 
     @Test
-    public void isPermutation() {
+    public void isPermutationDetectsIfOneStringIsPermutationOfOther() {
         assertTrue(CheckPermutation.isPermutation("asdf", "asdf"));
         assertTrue(CheckPermutation.isPermutation("asdf", "fdsa"));
         assertTrue(CheckPermutation.isPermutation("asdf123", "f1ds2a3"));
