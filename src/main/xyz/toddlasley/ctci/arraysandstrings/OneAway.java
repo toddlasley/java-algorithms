@@ -7,7 +7,7 @@ import java.lang.Math;
 
 public class OneAway {
     public static boolean isStringOneEditAway(String s1, String s2){
-        if(Math.abs(s1.length() - s2.length()) > 1){
+        if ( Math.abs(s1.length() - s2.length() ) > 1 ) {
             return false;
         }
 
@@ -18,20 +18,21 @@ public class OneAway {
         int index2 = 0;
         boolean foundDifference = false;
 
-        while(index1 < a.length() && index2 < b.length()){
-            if(a.charAt(index1) != b.charAt(index2)){
-                if(foundDifference){
+        while ( index1 < a.length() && index2 < b.length() ) {
+            if ( a.charAt(index1) != b.charAt(index2) ) {
+                if ( foundDifference ) {
                     return false;
                 }
 
                 foundDifference = true;
 
-                if(a.length() == b.length())
+                if ( a.length() == b.length() )
                     index2++;
 
             } else {
                 index2++;
             }
+
             index1++;
         }
 

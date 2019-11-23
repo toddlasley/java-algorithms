@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/PalindromePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/PalindromePermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/CheckPermutationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/CheckPermutationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/IsUniqueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/IsUniqueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/URLifyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/URLifyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/OneAway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/OneAway.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,54 +16,21 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/PalindromePermutation.java">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/OneAway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#1595#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/URLifyTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/OneAwayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/PalindromePermutationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/CheckPermutationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/IsUniqueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+            <state relative-caret-position="210">
+              <caret line="16" column="74" lean-forward="true" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -94,6 +58,8 @@
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/CheckPermutationTest.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/IsUniqueTest.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/URLifyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/OneAway.java" />
+        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/OneAwayTest.java" />
       </list>
     </option>
   </component>
@@ -112,6 +78,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,7 +151,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,13 +170,13 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="xyz.toddlasley.ctci.arraysandstrings" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
   </component>
@@ -322,14 +288,12 @@
       <workItem from="1573850498322" duration="2948000" />
       <workItem from="1574196798887" duration="891000" />
       <workItem from="1574289042780" duration="3306000" />
-      <workItem from="1574462995463" duration="3987000" />
+      <workItem from="1574462995463" duration="4324000" />
+      <workItem from="1574542740918" duration="570000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="URLifyTest - 2019.11.20 at 17h 44m 48s.xml">
-      <configuration name="URLifyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="URLifyTest - 2019.11.20 at 17h 45m 30s.xml">
       <configuration name="URLifyTest" configurationId="JUnit" />
     </history-entry>
@@ -357,14 +321,18 @@
     <history-entry file="PalindromePermutationTest - 2019.11.23 at 15h 49m 41s.xml">
       <configuration name="PalindromePermutationTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_java-algorithms - 2019.11.23 at 15h 51m 29s.xml">
+      <configuration name="All in java-algorithms" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11132000" />
+    <option name="totallyTimeSpent" value="12039000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1440" height="812" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2446352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -373,7 +341,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -473,6 +441,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/URLifyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/CheckPermutationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -487,10 +462,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/URLifyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/OneAway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="75">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/OneAwayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="74" lean-forward="true" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
         </state>
       </provider>
     </entry>
