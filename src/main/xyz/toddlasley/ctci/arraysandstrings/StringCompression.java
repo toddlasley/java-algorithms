@@ -10,14 +10,15 @@ public class StringCompression {
         //the code in getCompressedLength is largely duplicated, but this can help reduce overhead if the
         //string has a lot of unique values and it enables us to initialize our StringBuilder with the compressed size
         int compressedLength = getCompressedLength(s);
-        if(s.length() <= compressedLength){
+
+        if ( s.length() <= compressedLength ) {
             return s;
         }
 
         StringBuilder sb = new StringBuilder(compressedLength);
         int consecutiveCount = 0;
 
-        for(int i = 0; i < s.length(); i++){
+        for ( int i = 0; i < s.length(); i++ ) {
             consecutiveCount++;
 
             if(i + 1 >= s.length() || s.charAt(i) != s.charAt(i + 1)){
@@ -32,10 +33,10 @@ public class StringCompression {
     public static int getCompressedLength(String s){
         int consecutiveCount = 0;
         int compressedLength = 0;
-        for(int i = 0; i < s.length(); i++){
+        for ( int i = 0; i < s.length(); i++ ) {
             consecutiveCount++;
 
-            if(i + 1 >= s.length() || s.charAt(i) != s.charAt(i + 1)){
+            if (i + 1 >= s.length() || s.charAt(i) != s.charAt(i + 1) ) {
                 compressedLength += 1 + String.valueOf(consecutiveCount).length();
                 consecutiveCount = 0;
             }

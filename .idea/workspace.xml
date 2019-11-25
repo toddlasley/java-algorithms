@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/OneAway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/OneAway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/StringCompression.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,21 +16,21 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/OneAway.java">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/StringCompression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="60">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/OneAwayTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/StringCompressionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="74" lean-forward="true" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+            <state relative-caret-position="180">
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -60,6 +60,8 @@
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/URLifyTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/OneAway.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/OneAwayTest.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/StringCompression.java" />
+        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/StringCompressionTest.java" />
       </list>
     </option>
   </component>
@@ -77,8 +79,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,13 +172,13 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="xyz.toddlasley.ctci.arraysandstrings" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
   </component>
@@ -192,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in java-algorithms">
+  <component name="RunManager" selected="JUnit.StringCompressionTest">
     <configuration name="URLify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.arraysandstrings.URLify" />
       <module name="java-algorithms" />
@@ -214,21 +216,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsUniqueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.ctci.arraysandstrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.arraysandstrings" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.arraysandstrings.IsUniqueTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PalindromePermutationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
@@ -239,6 +226,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.arraysandstrings" />
       <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.arraysandstrings.PalindromePermutationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCompressionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.ctci.arraysandstrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.arraysandstrings" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.arraysandstrings.StringCompressionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -265,16 +267,16 @@
       <item itemvalue="Application.URLify" />
       <item itemvalue="JUnit.All in java-algorithms" />
       <item itemvalue="JUnit.URLifyTest" />
-      <item itemvalue="JUnit.IsUniqueTest" />
       <item itemvalue="JUnit.PalindromePermutationTest" />
+      <item itemvalue="JUnit.StringCompressionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCompressionTest" />
         <item itemvalue="JUnit.All in java-algorithms" />
         <item itemvalue="JUnit.PalindromePermutationTest" />
         <item itemvalue="JUnit.URLifyTest" />
         <item itemvalue="Application.URLify" />
-        <item itemvalue="JUnit.IsUniqueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -289,32 +291,12 @@
       <workItem from="1574196798887" duration="891000" />
       <workItem from="1574289042780" duration="3306000" />
       <workItem from="1574462995463" duration="4324000" />
-      <workItem from="1574542740918" duration="570000" />
+      <workItem from="1574542740918" duration="1101000" />
+      <workItem from="1574716507602" duration="749000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="URLifyTest - 2019.11.20 at 17h 45m 30s.xml">
-      <configuration name="URLifyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="URLifyTest - 2019.11.20 at 18h 33m 46s.xml">
-      <configuration name="URLifyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="URLifyTest - 2019.11.20 at 18h 34m 27s.xml">
-      <configuration name="URLifyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="URLifyTest - 2019.11.20 at 18h 34m 47s.xml">
-      <configuration name="URLifyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PalindromePermutationTest - 2019.11.22 at 18h 34m 07s.xml">
-      <configuration name="PalindromePermutationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PalindromePermutationTest - 2019.11.23 at 14h 35m 47s.xml">
-      <configuration name="PalindromePermutationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PalindromePermutationTest - 2019.11.23 at 14h 36m 03s.xml">
-      <configuration name="PalindromePermutationTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PalindromePermutationTest - 2019.11.23 at 14h 38m 07s.xml">
       <configuration name="PalindromePermutationTest" configurationId="JUnit" />
     </history-entry>
@@ -324,15 +306,36 @@
     <history-entry file="All_in_java-algorithms - 2019.11.23 at 15h 51m 29s.xml">
       <configuration name="All in java-algorithms" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_java-algorithms - 2019.11.23 at 16h 08m 35s.xml">
+      <configuration name="All in java-algorithms" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCompressionTest - 2019.11.25 at 16h 20m 57s.xml">
+      <configuration name="StringCompressionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCompressionTest - 2019.11.25 at 16h 22m 25s.xml">
+      <configuration name="StringCompressionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCompressionTest - 2019.11.25 at 16h 23m 18s.xml">
+      <configuration name="StringCompressionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCompressionTest - 2019.11.25 at 16h 26m 42s.xml">
+      <configuration name="StringCompressionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCompressionTest - 2019.11.25 at 16h 26m 56s.xml">
+      <configuration name="StringCompressionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCompressionTest - 2019.11.25 at 16h 27m 29s.xml">
+      <configuration name="StringCompressionTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12039000" />
+    <option name="totallyTimeSpent" value="13319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2446352" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24821173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -341,7 +344,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -464,15 +467,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/OneAway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="583">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/OneAwayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="74" lean-forward="true" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+        <state relative-caret-position="180">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/StringCompression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/StringCompressionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
         </state>
       </provider>
     </entry>
