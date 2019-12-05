@@ -6,16 +6,16 @@ package xyz.toddlasley.ctci.arraysandstrings;
 
 public class RotateMatrix {
     public static void rotate(int[][] matrix) {
-        if(matrix.length == 0 || matrix.length != matrix[0].length)
+        if( matrix.length == 0 || matrix.length != matrix[0].length )
             throw new IllegalArgumentException("Parameter must be a valid NxN matrix");
 
         int n = matrix.length;
-        for(int layer = 0; layer < n/2; layer++){
+        for ( int layer = 0; layer < n/2; layer++ ) {
             //first and last serve as the "bounds" that we manipulate the matrix within
             int first = layer;
             int last = n - 1 - layer;
 
-            for(int i = first; i < last; i++){
+            for ( int i = first; i < last; i++ ) {
                 // to account for indices on left and bottom sides
                 int offset = i - first;
 
