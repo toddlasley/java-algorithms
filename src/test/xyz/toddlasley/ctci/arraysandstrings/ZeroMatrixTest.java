@@ -8,34 +8,28 @@ public class ZeroMatrixTest {
 
     @Test
     public void zeroSuccessfullyZeroesMatrixRowsAndColumns() {
+
+        final int ZEROED_ROW = 1;
+        final int ZEROED_COLUMN = 2;
+
         int[][] matrix = {
                 { 1, 2, 3, 4 },
-                { 12, 0, 14, 5 },
+                { 12, 14, 0, 5 },
                 { 11, 16, 15, 6 },
-                { 10, 9, 8, 0 }
+                { 10, 9, 8, 13 }
         };
 
         ZeroMatrix.zero(matrix);
 
-        assertEquals(0, matrix[0][1]);
-        assertEquals(0, matrix[1][1]);
-        assertEquals(0, matrix[2][1]);
-        assertEquals(0, matrix[3][1]);
-
-        assertEquals(0, matrix[1][0]);
-        assertEquals(0, matrix[1][1]);
-        assertEquals(0, matrix[1][2]);
-        assertEquals(0, matrix[1][3]);
-
-        assertEquals(0, matrix[0][3]);
-        assertEquals(0, matrix[1][3]);
-        assertEquals(0, matrix[2][3]);
-        assertEquals(0, matrix[3][3]);
-
-        assertEquals(0, matrix[3][0]);
-        assertEquals(0, matrix[3][1]);
-        assertEquals(0, matrix[3][2]);
-        assertEquals(0, matrix[3][3]);
+        for ( int i = 0; i < matrix.length; i++ ) {
+            for ( int j = 0; j < matrix[0].length; j++ ) {
+                if ( i == ZEROED_ROW || j == ZEROED_COLUMN ) {
+                    assertEquals(0, matrix[i][j]);
+                } else {
+                    assertTrue(matrix[i][j] != 0);
+                }
+            }
+        }
     }
 
     @Test

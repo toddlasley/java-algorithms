@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/ZeroMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/ZeroMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/RotateMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/RotateMatrixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/ZeroMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/ZeroMatrixTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,33 +16,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/ZeroMatrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#1963#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/RotateMatrixTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/ZeroMatrixTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+            <state relative-caret-position="228">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -78,11 +56,13 @@
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/RotateMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/ZeroMatrix.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/RotateMatrixTest.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/StringRotation.java" />
+        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/StringRotationTest.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/ZeroMatrixTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="812" />
@@ -95,7 +75,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -169,6 +148,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,21 +199,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromePermutationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.ctci.arraysandstrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.arraysandstrings" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.arraysandstrings.PalindromePermutationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RotateMatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
@@ -264,6 +229,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringRotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.ctci.arraysandstrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.arraysandstrings" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.arraysandstrings.StringRotationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZeroMatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
@@ -281,18 +261,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in java-algorithms" />
-      <item itemvalue="JUnit.PalindromePermutationTest" />
       <item itemvalue="JUnit.StringCompressionTest" />
       <item itemvalue="JUnit.RotateMatrixTest" />
       <item itemvalue="JUnit.ZeroMatrixTest" />
+      <item itemvalue="JUnit.StringRotationTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ZeroMatrixTest" />
+        <item itemvalue="JUnit.StringRotationTest" />
         <item itemvalue="JUnit.RotateMatrixTest" />
         <item itemvalue="JUnit.StringCompressionTest" />
         <item itemvalue="JUnit.All in java-algorithms" />
-        <item itemvalue="JUnit.PalindromePermutationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -310,23 +290,12 @@
       <workItem from="1574542740918" duration="1101000" />
       <workItem from="1574716507602" duration="1660000" />
       <workItem from="1575569797831" duration="1022000" />
-      <workItem from="1575593476674" duration="1927000" />
+      <workItem from="1575593476674" duration="2883000" />
+      <workItem from="1575830970946" duration="390000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringCompressionTest - 2019.11.25 at 16h 22m 25s.xml">
-      <configuration name="StringCompressionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCompressionTest - 2019.11.25 at 16h 23m 18s.xml">
-      <configuration name="StringCompressionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCompressionTest - 2019.11.25 at 16h 26m 42s.xml">
-      <configuration name="StringCompressionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCompressionTest - 2019.11.25 at 16h 26m 56s.xml">
-      <configuration name="StringCompressionTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StringCompressionTest - 2019.11.25 at 16h 27m 29s.xml">
       <configuration name="StringCompressionTest" configurationId="JUnit" />
     </history-entry>
@@ -345,15 +314,27 @@
     <history-entry file="ZeroMatrixTest - 2019.12.05 at 20h 19m 24s.xml">
       <configuration name="ZeroMatrixTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ZeroMatrixTest - 2019.12.05 at 20h 23m 35s.xml">
+      <configuration name="ZeroMatrixTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringRotationTest - 2019.12.05 at 20h 39m 47s.xml">
+      <configuration name="StringRotationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZeroMatrixTest - 2019.12.08 at 13h 55m 08s.xml">
+      <configuration name="ZeroMatrixTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZeroMatrixTest - 2019.12.08 at 13h 55m 42s.xml">
+      <configuration name="ZeroMatrixTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17179000" />
+    <option name="totallyTimeSpent" value="18525000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553648" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25894135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -538,10 +519,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/StringRotationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/StringRotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/ZeroMatrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+        <state relative-caret-position="228">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>

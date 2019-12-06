@@ -9,7 +9,7 @@ public class StringRotation {
     //is s2 a rotated version of s1?
     //i.e. s1 = javaiscool, s2 = iscooljava, rotationCheck() returns true
     public static boolean rotationCheck(String s1, String s2) {
-        if(s1.length() == s2.length() && s1.length() != 0) {
+        if ( s1.length() == s2.length() && s1.length() != 0 ) {
             String duplicated = s2 + s2;
             return duplicated.indexOf(s1) > -1;
         }
