@@ -8,36 +8,36 @@ public class ZeroMatrix {
         boolean[] rows = new boolean[matrix.length];
         boolean[] columns = new boolean[matrix[0].length];
 
-        for(int i = 0; i < matrix.length; i++){
-            for(int j = 0; j < matrix[0].length; j++){
-                if(matrix[i][j] == 0){
+        for ( int i = 0; i < matrix.length; i++ ) {
+            for ( int j = 0; j < matrix[0].length; j++ ) {
+                if ( matrix[i][j] == 0 ) {
                     rows[i] = true;
                     columns[j] = true;
                 }
             }
         }
 
-        for(int i = 0; i < rows.length; i++){
-            if(rows[i]){
+        for ( int i = 0; i < rows.length; i++ ) {
+            if ( rows[i] ) {
                 zeroRow(matrix, i);
             }
         }
 
-        for(int i = 0; i < columns.length; i++){
-            if(columns[i]){
+        for ( int i = 0; i < columns.length; i++ ) {
+            if ( columns[i] ) {
                 zeroColumn(matrix, i);
             }
         }
     }
 
     private static void zeroRow(int[][] matrix, int row){
-        for(int j = 0; j < matrix[0].length; j++){
+        for ( int j = 0; j < matrix[0].length; j++ ) {
             matrix[row][j] = 0;
         }
     }
 
     private static void zeroColumn(int[][] matrix, int column){
-        for(int j = 0; j < matrix.length; j++){
+        for ( int j = 0; j < matrix.length; j++ ) {
             matrix[j][column] = 0;
         }
     }
