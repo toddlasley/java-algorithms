@@ -11,33 +11,37 @@ public class DeleteDuplicates {
     public static void deleteDuplicates(LinkedListNode n){
         HashSet<Integer> h = new HashSet<>();
 
-        //keep track of previous node so that we can refer to it when we
-        //need to skip/delete the current node
+        // keep track of previous node so that we can refer to it when we
+        // need to skip/delete the current node
         LinkedListNode previous = null;
-        while(n != null){
-            if(h.contains(n.data)){
+        while ( n != null ) {
+            if ( h.contains(n.data) ) {
                 previous.next = n.next;
             } else {
                 h.add(n.data);
                 previous = n;
             }
+
             n = n.next;
         }
     }
 
-    //does the job in O(1) space but O(n^2) time
+    // does the job in O(1) space but O(n^2) time
     public static void deleteDuplicatesNoBuffer(LinkedListNode head){
         LinkedListNode current = head;
-        while(current != null){
+
+        while ( current != null ) {
             LinkedListNode runner = current;
-            while(runner.next != null){
-                if(current.data == runner.next.data){
-                    //skip the runner's next node
+
+            while ( runner.next != null ) {
+                if ( current.data == runner.next.data ) {
+                    // skip the runner's next node
                     runner.next = runner.next.next;
                 } else {
                     runner = runner.next;
                 }
             }
+
             current = current.next;
         }
     }

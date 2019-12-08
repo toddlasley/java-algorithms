@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/ZeroMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/ZeroMatrixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/DeleteDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/DeleteDuplicates.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/ZeroMatrixTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/DeleteDuplicates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="27">
+              <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="53" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/DeleteDuplicatesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="98" column="62" lean-forward="true" selection-start-line="98" selection-start-column="62" selection-end-line="98" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/types/LinkedListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-292">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -59,6 +76,8 @@
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/StringRotation.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/StringRotationTest.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/ZeroMatrixTest.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/DeleteDuplicates.java" />
+        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/DeleteDuplicatesTest.java" />
       </list>
     </option>
   </component>
@@ -112,33 +131,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
               <item name="ctci" type="462c0819:PsiDirectoryNode" />
-              <item name="arraysandstrings" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
               <item name="ctci" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
+              <item name="types" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="ctci" type="462c0819:PsiDirectoryNode" />
-              <item name="arraysandstrings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -166,15 +179,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="xyz.toddlasley.ctci.linkedlists" />
       <recent name="xyz.toddlasley.ctci.arraysandstrings" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
   </component>
@@ -190,56 +204,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ZeroMatrixTest">
-    <configuration name="All in java-algorithms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algorithms" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotateMatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DeleteDuplicatesTest">
+    <configuration name="DeleteDuplicatesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.ctci.arraysandstrings.*" />
+          <option name="PATTERN" value="xyz.toddlasley.ctci.linkedlists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.arraysandstrings" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.arraysandstrings.RotateMatrixTest" />
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.linkedlists" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.DeleteDuplicatesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCompressionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteDuplicatesTest.deleteDuplicatesLeavesLinkedListsWithUniqueValuesAlone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.ctci.arraysandstrings.*" />
+          <option name="PATTERN" value="xyz.toddlasley.ctci.linkedlists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.arraysandstrings" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.arraysandstrings.StringCompressionTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.linkedlists" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.DeleteDuplicatesTest" />
+      <option name="METHOD_NAME" value="deleteDuplicatesLeavesLinkedListsWithUniqueValuesAlone" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringRotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteDuplicatesTest.deleteDuplicatesNoBufferSuccessfullyDeletesDuplicateNodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.ctci.arraysandstrings.*" />
+          <option name="PATTERN" value="xyz.toddlasley.ctci.linkedlists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.arraysandstrings" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.arraysandstrings.StringRotationTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.linkedlists" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.DeleteDuplicatesTest" />
+      <option name="METHOD_NAME" value="deleteDuplicatesNoBufferSuccessfullyDeletesDuplicateNodes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteDuplicatesTest.deleteDuplicatesSuccessfullyDeletesDuplicateNodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.ctci.linkedlists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.linkedlists" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.DeleteDuplicatesTest" />
+      <option name="METHOD_NAME" value="deleteDuplicatesSuccessfullyDeletesDuplicateNodes" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -260,19 +284,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in java-algorithms" />
-      <item itemvalue="JUnit.StringCompressionTest" />
-      <item itemvalue="JUnit.RotateMatrixTest" />
       <item itemvalue="JUnit.ZeroMatrixTest" />
-      <item itemvalue="JUnit.StringRotationTest" />
+      <item itemvalue="JUnit.DeleteDuplicatesTest" />
+      <item itemvalue="JUnit.DeleteDuplicatesTest.deleteDuplicatesSuccessfullyDeletesDuplicateNodes" />
+      <item itemvalue="JUnit.DeleteDuplicatesTest.deleteDuplicatesNoBufferSuccessfullyDeletesDuplicateNodes" />
+      <item itemvalue="JUnit.DeleteDuplicatesTest.deleteDuplicatesLeavesLinkedListsWithUniqueValuesAlone" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeleteDuplicatesTest" />
+        <item itemvalue="JUnit.DeleteDuplicatesTest.deleteDuplicatesLeavesLinkedListsWithUniqueValuesAlone" />
+        <item itemvalue="JUnit.DeleteDuplicatesTest.deleteDuplicatesNoBufferSuccessfullyDeletesDuplicateNodes" />
+        <item itemvalue="JUnit.DeleteDuplicatesTest.deleteDuplicatesSuccessfullyDeletesDuplicateNodes" />
         <item itemvalue="JUnit.ZeroMatrixTest" />
-        <item itemvalue="JUnit.StringRotationTest" />
-        <item itemvalue="JUnit.RotateMatrixTest" />
-        <item itemvalue="JUnit.StringCompressionTest" />
-        <item itemvalue="JUnit.All in java-algorithms" />
       </list>
     </recent_temporary>
   </component>
@@ -291,26 +315,11 @@
       <workItem from="1574716507602" duration="1660000" />
       <workItem from="1575569797831" duration="1022000" />
       <workItem from="1575593476674" duration="2883000" />
-      <workItem from="1575830970946" duration="390000" />
+      <workItem from="1575830970946" duration="2016000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringCompressionTest - 2019.11.25 at 16h 27m 29s.xml">
-      <configuration name="StringCompressionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RotateMatrixTest - 2019.12.05 at 13h 19m 59s.xml">
-      <configuration name="RotateMatrixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RotateMatrixTest - 2019.12.05 at 13h 24m 32s.xml">
-      <configuration name="RotateMatrixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RotateMatrixTest - 2019.12.05 at 13h 26m 45s.xml">
-      <configuration name="RotateMatrixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ZeroMatrixTest - 2019.12.05 at 20h 16m 58s.xml">
-      <configuration name="ZeroMatrixTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ZeroMatrixTest - 2019.12.05 at 20h 19m 24s.xml">
       <configuration name="ZeroMatrixTest" configurationId="JUnit" />
     </history-entry>
@@ -326,9 +335,24 @@
     <history-entry file="ZeroMatrixTest - 2019.12.08 at 13h 55m 42s.xml">
       <configuration name="ZeroMatrixTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DeleteDuplicatesTest - 2019.12.08 at 14h 18m 20s.xml">
+      <configuration name="DeleteDuplicatesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeleteDuplicatesTest_deleteDuplicatesSuccessfullyDeletesDuplicateNodes - 2019.12.08 at 14h 19m 01s.xml">
+      <configuration name="DeleteDuplicatesTest.deleteDuplicatesSuccessfullyDeletesDuplicateNodes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeleteDuplicatesTest_deleteDuplicatesNoBufferSuccessfullyDeletesDuplicateNodes - 2019.12.08 at 14h 19m 47s.xml">
+      <configuration name="DeleteDuplicatesTest.deleteDuplicatesNoBufferSuccessfullyDeletesDuplicateNodes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeleteDuplicatesTest_deleteDuplicatesLeavesLinkedListsWithUniqueValuesAlone - 2019.12.08 at 14h 24m 26s.xml">
+      <configuration name="DeleteDuplicatesTest.deleteDuplicatesLeavesLinkedListsWithUniqueValuesAlone" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeleteDuplicatesTest_deleteDuplicatesLeavesLinkedListsWithUniqueValuesAlone - 2019.12.08 at 14h 25m 03s.xml">
+      <configuration name="DeleteDuplicatesTest.deleteDuplicatesLeavesLinkedListsWithUniqueValuesAlone" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18525000" />
+    <option name="totallyTimeSpent" value="20151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
@@ -343,8 +367,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -537,6 +561,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/DeleteDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="53" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/types/LinkedListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-292">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/DeleteDuplicatesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="98" column="62" lean-forward="true" selection-start-line="98" selection-start-column="62" selection-end-line="98" selection-end-column="62" />
         </state>
       </provider>
     </entry>
