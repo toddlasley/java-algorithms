@@ -10,16 +10,17 @@ public class KthToLast {
         LinkedListNode p1 = head;
         LinkedListNode p2 = head;
 
-        //move p1 k nodes ahead of p2
-        for(int i = 0; i < k; i++){
-            //if p1 is null, the list is not long enough for the given value of k
-            if(p1 == null)
+        // move p1 k nodes ahead of p2
+        for ( int i = 0; i < k; i++ ) {
+            // if p1 is null, the list is not long enough for the given value of k
+            if ( p1 == null ) {
                 return null;
+            }
 
             p1 = p1.next;
         }
 
-        while(p1 != null){
+        while ( p1 != null ) {
             p1 = p1.next;
             p2 = p2.next;
         }
