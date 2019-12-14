@@ -7,8 +7,8 @@ package xyz.toddlasley.ctci.linkedlists;
 import xyz.toddlasley.ctci.linkedlists.types.LinkedListNode;
 
 public class DeleteMiddleNode {
-    public static void deleteMiddleNode(LinkedListNode node){
-        if(node.next == null)
+    public static void deleteMiddleNode(LinkedListNode node) {
+        if ( node.next == null )
             return;
 
         LinkedListNode copy = node.next;

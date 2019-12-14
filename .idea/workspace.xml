@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/KthToLast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/KthToLast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/DeleteMiddleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/DeleteMiddleNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,19 +18,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/KthToLast.java">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/DeleteMiddleNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="71" />
+            <state relative-caret-position="120">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#1180#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/KthToLastTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/DeleteMiddleNodeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            <state relative-caret-position="381">
+              <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/DeleteDuplicatesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="66" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -72,6 +84,8 @@
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/DeleteDuplicatesTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/KthToLast.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/KthToLastTest.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/DeleteMiddleNode.java" />
+        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/DeleteMiddleNodeTest.java" />
       </list>
     </option>
   </component>
@@ -88,8 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,12 +153,29 @@
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
+              <item name="ctci" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
+              <item name="ctci" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,13 +196,13 @@
       <recent name="xyz.toddlasley.ctci.linkedlists" />
       <recent name="xyz.toddlasley.ctci.arraysandstrings" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
   </component>
@@ -189,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KthToLastTest">
+  <component name="RunManager" selected="JUnit.DeleteMiddleNodeTest">
     <configuration name="DeleteDuplicatesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
@@ -221,7 +250,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteDuplicatesTest.deleteDuplicatesNoBufferSuccessfullyDeletesDuplicateNodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteMiddleNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
         <pattern>
@@ -230,9 +259,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.linkedlists" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.DeleteDuplicatesTest" />
-      <option name="METHOD_NAME" value="deleteDuplicatesNoBufferSuccessfullyDeletesDuplicateNodes" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.DeleteMiddleNodeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -270,18 +298,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.DeleteDuplicatesTest" />
-      <item itemvalue="JUnit.DeleteDuplicatesTest.deleteDuplicatesNoBufferSuccessfullyDeletesDuplicateNodes" />
       <item itemvalue="JUnit.DeleteDuplicatesTest.deleteDuplicatesLeavesLinkedListsWithUniqueValuesAlone" />
       <item itemvalue="JUnit.KthToLastTest" />
       <item itemvalue="JUnit.KthToLastTest.returnKthToLastFindsCorrectNode" />
+      <item itemvalue="JUnit.DeleteMiddleNodeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeleteMiddleNodeTest" />
         <item itemvalue="JUnit.KthToLastTest" />
         <item itemvalue="JUnit.KthToLastTest.returnKthToLastFindsCorrectNode" />
         <item itemvalue="JUnit.DeleteDuplicatesTest" />
         <item itemvalue="JUnit.DeleteDuplicatesTest.deleteDuplicatesLeavesLinkedListsWithUniqueValuesAlone" />
-        <item itemvalue="JUnit.DeleteDuplicatesTest.deleteDuplicatesNoBufferSuccessfullyDeletesDuplicateNodes" />
       </list>
     </recent_temporary>
   </component>
@@ -301,17 +329,12 @@
       <workItem from="1575569797831" duration="1022000" />
       <workItem from="1575593476674" duration="2883000" />
       <workItem from="1575830970946" duration="2078000" />
-      <workItem from="1576036676364" duration="927000" />
+      <workItem from="1576036676364" duration="1069000" />
+      <workItem from="1576296454958" duration="743000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ZeroMatrixTest - 2019.12.08 at 13h 55m 42s.xml">
-      <configuration name="ZeroMatrixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeleteDuplicatesTest - 2019.12.08 at 14h 18m 20s.xml">
-      <configuration name="DeleteDuplicatesTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DeleteDuplicatesTest_deleteDuplicatesSuccessfullyDeletesDuplicateNodes - 2019.12.08 at 14h 19m 01s.xml">
       <configuration name="DeleteDuplicatesTest.deleteDuplicatesSuccessfullyDeletesDuplicateNodes" configurationId="JUnit" />
     </history-entry>
@@ -336,15 +359,21 @@
     <history-entry file="KthToLastTest - 2019.12.10 at 23h 29m 04s.xml">
       <configuration name="KthToLastTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="KthToLastTest - 2019.12.10 at 23h 29m 33s.xml">
+      <configuration name="KthToLastTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeleteMiddleNodeTest - 2019.12.13 at 23h 17m 16s.xml">
+      <configuration name="DeleteMiddleNodeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21140000" />
+    <option name="totallyTimeSpent" value="22025000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="812" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26251787" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26609442" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -550,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/DeleteDuplicatesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="98" column="62" selection-start-line="98" selection-start-column="62" selection-end-line="98" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/DeleteDuplicates.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -571,6 +593,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/KthToLastTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/KthToLast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -578,10 +607,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/KthToLastTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/DeleteMiddleNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        <state relative-caret-position="120">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#1180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/DeleteDuplicatesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="66" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/DeleteMiddleNodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
         </state>
       </provider>
     </entry>
