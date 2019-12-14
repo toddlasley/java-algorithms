@@ -1,41 +1,41 @@
-//2.4: Write code to partition a linked list around a value x, such that all nodes less than x come
+// 2.4: Write code to partition a linked list around a value x, such that all nodes less than x come
 // before all nodes greater than or equal to x. If x is contained within the list, the values of x only need
 // to be after the elements less than x. The partition element x can appear anywhere in the right partition; it does
 // not need to appear between the left and right partitions.
-//Solution: p. 212
+// Solution: p. 212
 
 package xyz.toddlasley.ctci.linkedlists;
 
 import xyz.toddlasley.ctci.linkedlists.types.LinkedListNode;
 
 public class Partition {
-    public static LinkedListNode partition(LinkedListNode node, int x){
+    public static LinkedListNode partition(LinkedListNode node, int x) {
         LinkedListNode beforeStart = null;
         LinkedListNode beforeEnd = null;
         LinkedListNode afterStart = null;
         LinkedListNode afterEnd = null;
 
-        while(node != null){
-            //copy the next node into a temporary object and
-            //null out the next node on the current one
+        while ( node != null ) {
+            // copy the next node into a temporary object and
+            // null out the next node on the current one
             LinkedListNode next = node.next;
             node.next = null;
 
-            if(node.data < x){
-                if(beforeStart == null){
-                    //this is the beginning of the before linked list
+            if ( node.data < x ) {
+                if ( beforeStart == null ) {
+                    // this is the beginning of the before linked list
                     beforeStart = node;
                     beforeEnd = beforeStart;
                 } else {
-                    //set the next node equal to the node in question
-                    //and then point beforeEnd to that node so that it is pointing
-                    //to the last node in the list
+                    // set the next node equal to the node in question
+                    // and then point beforeEnd to that node so that it is pointing
+                    // to the last node in the list
                     beforeEnd.next = node;
                     beforeEnd = node;
                 }
             } else {
-                //same rules apply for the after linked list
-                if(afterStart == null){
+                // same rules apply for the after linked list
+                if ( afterStart == null ) {
                     afterStart = node;
                     afterEnd = afterStart;
                 } else {
@@ -46,10 +46,11 @@ public class Partition {
             node = next;
         }
 
-        if(beforeStart == null)
+        if ( beforeStart == null )
             return afterStart;
 
         beforeEnd.next = afterStart;
+
         return beforeStart;
     }
 
