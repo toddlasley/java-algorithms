@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/Partition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/Partition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/SumLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/SumLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/types/PartialSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/types/PartialSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/SumListsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/SumListsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,36 +18,24 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/Partition.java">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/SumLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="-462">
+              <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
               <folding>
-                <element signature="e#0#2744#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/PalindromePermutationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="79" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#4779#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/PartitionTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/SumListsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            <state relative-caret-position="353">
+              <caret line="122" column="13" lean-forward="true" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,6 +84,10 @@
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/DeleteMiddleNode.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/Partition.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/PartitionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/types/LinkedListNode.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/types/PartialSum.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/SumLists.java" />
+        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/SumListsTest.java" />
       </list>
     </option>
   </component>
@@ -110,6 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,14 +138,6 @@
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="ctci" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -165,14 +152,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
               <item name="ctci" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="ctci" type="462c0819:PsiDirectoryNode" />
-              <item name="arraysandstrings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -190,7 +169,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -212,13 +190,13 @@
       <recent name="xyz.toddlasley.ctci.linkedlists" />
       <recent name="xyz.toddlasley.ctci.arraysandstrings" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
   </component>
@@ -234,8 +212,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PartitionTest.partitionSuccessfullyPartitionsLinkedList">
-    <configuration name="DeleteMiddleNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SumListsTest">
+    <configuration name="SumListsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
         <pattern>
@@ -244,13 +222,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.linkedlists" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.DeleteMiddleNodeTest" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.SumListsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthToLastTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SumListsTest.addListsHelperReturnsPartialSumFor2Nodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
         <pattern>
@@ -259,29 +237,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.linkedlists" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.KthToLastTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KthToLastTest.returnKthToLastFindsCorrectNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.ctci.linkedlists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.linkedlists" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.KthToLastTest" />
-      <option name="METHOD_NAME" value="returnKthToLastFindsCorrectNode" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.SumListsTest" />
+      <option name="METHOD_NAME" value="addListsHelperReturnsPartialSumFor2Nodes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SumListsTest.addListsHelperReturnsPartialSumFor2NodesWithCarry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
         <pattern>
@@ -290,13 +253,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.linkedlists" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.PartitionTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.SumListsTest" />
+      <option name="METHOD_NAME" value="addListsHelperReturnsPartialSumFor2NodesWithCarry" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionTest.partitionSuccessfullyPartitionsLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SumListsTest.insertBeforeAddsValueToFrontOfNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
         <pattern>
@@ -305,27 +269,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.linkedlists" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.PartitionTest" />
-      <option name="METHOD_NAME" value="partitionSuccessfullyPartitionsLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.SumListsTest" />
+      <option name="METHOD_NAME" value="insertBeforeAddsValueToFrontOfNode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumListsTest.padListAddsAppropriateNumberOfZeroesToList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.ctci.linkedlists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.linkedlists" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.SumListsTest" />
+      <option name="METHOD_NAME" value="padListAddsAppropriateNumberOfZeroesToList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.KthToLastTest" />
-      <item itemvalue="JUnit.KthToLastTest.returnKthToLastFindsCorrectNode" />
-      <item itemvalue="JUnit.DeleteMiddleNodeTest" />
-      <item itemvalue="JUnit.PartitionTest" />
-      <item itemvalue="JUnit.PartitionTest.partitionSuccessfullyPartitionsLinkedList" />
+      <item itemvalue="JUnit.SumListsTest.addListsHelperReturnsPartialSumFor2Nodes" />
+      <item itemvalue="JUnit.SumListsTest.addListsHelperReturnsPartialSumFor2NodesWithCarry" />
+      <item itemvalue="JUnit.SumListsTest.padListAddsAppropriateNumberOfZeroesToList" />
+      <item itemvalue="JUnit.SumListsTest.insertBeforeAddsValueToFrontOfNode" />
+      <item itemvalue="JUnit.SumListsTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PartitionTest.partitionSuccessfullyPartitionsLinkedList" />
-        <item itemvalue="JUnit.PartitionTest" />
-        <item itemvalue="JUnit.DeleteMiddleNodeTest" />
-        <item itemvalue="JUnit.KthToLastTest" />
-        <item itemvalue="JUnit.KthToLastTest.returnKthToLastFindsCorrectNode" />
+        <item itemvalue="JUnit.SumListsTest" />
+        <item itemvalue="JUnit.SumListsTest.insertBeforeAddsValueToFrontOfNode" />
+        <item itemvalue="JUnit.SumListsTest.padListAddsAppropriateNumberOfZeroesToList" />
+        <item itemvalue="JUnit.SumListsTest.addListsHelperReturnsPartialSumFor2NodesWithCarry" />
+        <item itemvalue="JUnit.SumListsTest.addListsHelperReturnsPartialSumFor2Nodes" />
       </list>
     </recent_temporary>
   </component>
@@ -346,50 +326,51 @@
       <workItem from="1575593476674" duration="2883000" />
       <workItem from="1575830970946" duration="2078000" />
       <workItem from="1576036676364" duration="1069000" />
-      <workItem from="1576296454958" duration="2203000" />
+      <workItem from="1576296454958" duration="2920000" />
+      <workItem from="1576384551486" duration="3530000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeleteDuplicatesTest_deleteDuplicatesLeavesLinkedListsWithUniqueValuesAlone - 2019.12.08 at 14h 25m 03s.xml">
-      <configuration name="DeleteDuplicatesTest.deleteDuplicatesLeavesLinkedListsWithUniqueValuesAlone" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeleteDuplicatesTest - 2019.12.08 at 14h 26m 57s.xml">
-      <configuration name="DeleteDuplicatesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KthToLastTest - 2019.12.10 at 23h 26m 44s.xml">
-      <configuration name="KthToLastTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KthToLastTest_returnKthToLastFindsCorrectNode - 2019.12.10 at 23h 27m 32s.xml">
-      <configuration name="KthToLastTest.returnKthToLastFindsCorrectNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KthToLastTest - 2019.12.10 at 23h 29m 04s.xml">
-      <configuration name="KthToLastTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="KthToLastTest - 2019.12.10 at 23h 29m 33s.xml">
-      <configuration name="KthToLastTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeleteMiddleNodeTest - 2019.12.13 at 23h 17m 16s.xml">
-      <configuration name="DeleteMiddleNodeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeleteMiddleNodeTest - 2019.12.13 at 23h 20m 08s.xml">
-      <configuration name="DeleteMiddleNodeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartitionTest - 2019.12.13 at 23h 43m 18s.xml">
-      <configuration name="PartitionTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PartitionTest_partitionSuccessfullyPartitionsLinkedList - 2019.12.13 at 23h 45m 57s.xml">
       <configuration name="PartitionTest.partitionSuccessfullyPartitionsLinkedList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PartitionTest_partitionSuccessfullyPartitionsLinkedList - 2019.12.13 at 23h 46m 51s.xml">
+      <configuration name="PartitionTest.partitionSuccessfullyPartitionsLinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumListsTest_addListsFollowUpReturnsSimpleSum - 2019.12.15 at 00h 08m 51s.xml">
+      <configuration name="SumListsTest.addListsFollowUpReturnsSimpleSum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumListsTest_addListsFollowUpReturnsSimpleSum - 2019.12.15 at 00h 09m 29s.xml">
+      <configuration name="SumListsTest.addListsFollowUpReturnsSimpleSum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumListsTest_addListsFollowUpReturnsSumWithCarry - 2019.12.15 at 00h 10m 18s.xml">
+      <configuration name="SumListsTest.addListsFollowUpReturnsSumWithCarry" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumListsTest_addListsFollowUpReturnsSumWithCarry - 2019.12.15 at 00h 10m 59s.xml">
+      <configuration name="SumListsTest.addListsFollowUpReturnsSumWithCarry" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumListsTest_addListsFollowUpReturnsSumForDifferentLengthLinkedLists - 2019.12.15 at 00h 14m 13s.xml">
+      <configuration name="SumListsTest.addListsFollowUpReturnsSumForDifferentLengthLinkedLists" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumListsTest_addListsHelperReturnsPartialSumFor2Nodes - 2019.12.15 at 00h 28m 44s.xml">
+      <configuration name="SumListsTest.addListsHelperReturnsPartialSumFor2Nodes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumListsTest_addListsHelperReturnsPartialSumFor2Nodes - 2019.12.15 at 00h 29m 00s.xml">
+      <configuration name="SumListsTest.addListsHelperReturnsPartialSumFor2Nodes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumListsTest_addListsHelperReturnsPartialSumFor2NodesWithCarry - 2019.12.15 at 00h 29m 53s.xml">
+      <configuration name="SumListsTest.addListsHelperReturnsPartialSumFor2NodesWithCarry" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23485000" />
+    <option name="totallyTimeSpent" value="27732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26609442" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26967096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -398,8 +379,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -423,6 +404,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/SumLists.java</url>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/sorts/InsertionSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -439,16 +431,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java-algorithms.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/SumListsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/CheckPermutation.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -585,13 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/types/LinkedListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/KthToLast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -603,16 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/Partition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#2744#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -644,6 +609,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/PartitionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/PalindromePermutationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -654,10 +629,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/PartitionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/Partition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#2744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/types/LinkedListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/types/PartialSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/SumLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#4779#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/SumListsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="122" column="13" lean-forward="true" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

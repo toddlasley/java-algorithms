@@ -1,8 +1,8 @@
-//2.5: You have two numbers represent by a linked list, where each node contains a single digit.
+// 2.5: You have two numbers represent by a linked list, where each node contains a single digit.
 // The digits are stored in reverse order, such that the 1's digit is at the head of the list. Write a
 // function that adds the two numbers and returns the sum as a linked list.
 // Follow up: Suppose the digits are stored in forward order. Repeat the above problem.
-//Solution: p. 214
+// Solution: p. 214
 
 package xyz.toddlasley.ctci.linkedlists;
 
@@ -14,25 +14,25 @@ public class SumLists {
         return addLists(l1, l2, 0);
     }
 
-    public static LinkedListNode addLists(LinkedListNode l1, LinkedListNode l2, int carry){
-        if(l1 == null && l2 == null && carry == 0){
+    public static LinkedListNode addLists(LinkedListNode l1, LinkedListNode l2, int carry) {
+        if( l1 == null && l2 == null && carry == 0 ) {
             return null;
         }
 
         LinkedListNode result = new LinkedListNode();
         int value = carry;
 
-        if(l1 != null){
+        if ( l1 != null ) {
             value += l1.data;
         }
 
-        if(l2 != null){
+        if ( l2 != null ) {
             value += l2.data;
         }
 
         result.data = value % 10;
 
-        if(l1 != null || l2 != null){
+        if ( l1 != null || l2 != null ) {
             LinkedListNode more = addLists(l1 == null ? null : l1.next,
                     l2 == null ? null : l2.next,
                     value >= 10 ? 1 : 0);
@@ -43,23 +43,23 @@ public class SumLists {
         return result;
     }
 
-    //Follow up solution
-    public static LinkedListNode addListsFollowUp(LinkedListNode l1, LinkedListNode l2){
+    // Follow up solution
+    public static LinkedListNode addListsFollowUp(LinkedListNode l1, LinkedListNode l2) {
         int length1 = l1.length();
         int length2 = l2.length();
 
-        //pad the shorter length linked list with zeroes
-        if(length1 < length2){
+        // pad the shorter length linked list with zeroes
+        if( length1 < length2 ) {
             l1 = padList(l1, length2 - length1);
-        } else if(length2 < length1){
+        } else if ( length2 < length1 ) {
             l2 = padList(l2, length1 - length2);
         }
 
-        //hand off to this method since padding won't be needed from
-        //here on out
+        // hand off to this method since padding won't be needed from
+        // here on out
         PartialSum sum = addListsHelper(l1, l2);
 
-        if(sum.carry == 0){
+        if ( sum.carry == 0){
             return sum.sum;
         } else {
             LinkedListNode result = insertBefore(sum.sum, sum.carry);
@@ -68,7 +68,7 @@ public class SumLists {
     }
 
     public static PartialSum addListsHelper(LinkedListNode l1, LinkedListNode l2){
-        if(l1 == null && l2 == null){
+        if ( l1 == null && l2 == null ) {
             return new PartialSum();
         }
 
@@ -80,12 +80,14 @@ public class SumLists {
 
         sum.sum = fullResult;
         sum.carry = val / 10;
+
         return sum;
     }
 
     public static LinkedListNode padList(LinkedListNode l, int padding){
         LinkedListNode head = l;
-        for(int i = 0; i < padding; i++){
+
+        for ( int i = 0; i < padding; i++ ) {
             head = insertBefore(head, 0);
         }
 
@@ -94,7 +96,8 @@ public class SumLists {
 
     public static LinkedListNode insertBefore(LinkedListNode l, int data){
         LinkedListNode node = new LinkedListNode(data, null);
-        if(l != null){
+
+        if ( l != null ) {
             node.next = l;
         }
 
