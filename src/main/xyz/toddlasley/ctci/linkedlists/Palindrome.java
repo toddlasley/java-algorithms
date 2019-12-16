@@ -8,25 +8,26 @@ import xyz.toddlasley.ctci.linkedlists.types.LinkedListNode;
 import java.util.Stack;
 
 public class Palindrome {
-    public static boolean isPalindrome(LinkedListNode node){
+    public static boolean isPalindrome(LinkedListNode node) {
         Stack<Integer> stack = new Stack<Integer>();
         LinkedListNode slowRunner = node;
         LinkedListNode fastRunner = node;
-        while(fastRunner != null && fastRunner.next != null){
+
+        while ( fastRunner != null && fastRunner.next != null ) {
             stack.push(slowRunner.data);
             slowRunner = slowRunner.next;
             fastRunner = fastRunner.next.next;
         }
 
         //if odd number of nodes, move slowRunner once more
-        if(fastRunner != null){
+        if ( fastRunner != null ) {
             slowRunner = slowRunner.next;
         }
 
-        while(slowRunner != null){
+        while ( slowRunner != null ) {
             int top = stack.pop().intValue();
 
-            if(top != slowRunner.data){
+            if ( top != slowRunner.data ) {
                 return false;
             }
 
