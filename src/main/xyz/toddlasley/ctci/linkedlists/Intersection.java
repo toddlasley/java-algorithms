@@ -10,14 +10,14 @@ import xyz.toddlasley.ctci.linkedlists.types.LinkedListNode;
 
 public class Intersection {
     public static LinkedListNode findIntersection(LinkedListNode l1, LinkedListNode l2){
-        if(l1 == null || l2 == null)
+        if ( l1 == null || l2 == null )
             return null;
 
         IntersectionResult result1 = getLengthAndTail(l1);
         IntersectionResult result2 = getLengthAndTail(l2);
 
-        //if the two lists do not have the same tail,
-        //they do not intersect
+        // if the two lists do not have the same tail,
+        // they do not intersect
         if(result1.tail != result2.tail)
             return null;
 
@@ -27,7 +27,7 @@ public class Intersection {
         //move forward on the longer list
         longer = getKthNode(longer, Math.abs(result1.size - result2.size));
 
-        while(shorter != longer){
+        while ( shorter != longer ) {
             shorter = shorter.next;
             longer = longer.next;
         }
@@ -35,9 +35,10 @@ public class Intersection {
         return shorter;
     }
 
-    public static IntersectionResult getLengthAndTail(LinkedListNode head){
+    public static IntersectionResult getLengthAndTail(LinkedListNode head) {
         int length = 1;
-        while(head.next != null){
+
+        while( head.next != null ) {
             head = head.next;
             length++;
         }
@@ -45,8 +46,8 @@ public class Intersection {
         return new IntersectionResult(head, length);
     }
 
-    public static LinkedListNode getKthNode(LinkedListNode head, int k){
-        for(int i = 0; i < k; i++){
+    public static LinkedListNode getKthNode(LinkedListNode head, int k) {
+        for (int i = 0; i < k; i++ ) {
             head = head.next;
         }
 
