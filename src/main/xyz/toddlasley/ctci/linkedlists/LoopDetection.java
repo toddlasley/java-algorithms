@@ -6,29 +6,30 @@ package xyz.toddlasley.ctci.linkedlists;
 import xyz.toddlasley.ctci.linkedlists.types.LinkedListNode;
 
 public class LoopDetection {
-    public static LinkedListNode findBeginning(LinkedListNode head){
+    public static LinkedListNode findBeginning(LinkedListNode head) {
         LinkedListNode slowRunner = head;
         LinkedListNode fastRunner = head;
 
-        while(fastRunner != null && fastRunner.next != null){
+        while ( fastRunner != null && fastRunner.next != null ) {
             slowRunner = slowRunner.next;
             fastRunner = fastRunner.next.next;
 
-            //we have hit the collision point
-            if(slowRunner == fastRunner){
+            // have we hit the collision point?
+            if ( slowRunner == fastRunner ) {
                 break;
             }
         }
 
-        //check to see if we've hit the end of the linked list (i.e. no loop)
-        if(fastRunner == null || fastRunner.next == null){
+        // check to see if we've hit the end of the linked list (i.e. no loop)
+        if ( fastRunner == null || fastRunner.next == null ) {
             return null;
         }
 
-        //move slowRunner to head, both slowRunner and fastRunner will be equidistant
-        //from the head that starts the loop
+        // move slowRunner to head, both slowRunner and fastRunner will be equidistant
+        // from the head that starts the loop
         slowRunner = head;
-        while (slowRunner != fastRunner){
+
+        while ( slowRunner != fastRunner ) {
             slowRunner = slowRunner.next;
             fastRunner = fastRunner.next;
         }

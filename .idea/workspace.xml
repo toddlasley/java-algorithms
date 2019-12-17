@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/Intersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/Intersection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/LoopDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/LoopDetection.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,19 +18,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/Intersection.java">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/LoopDetection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-337">
-              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="268">
+              <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="47" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/IntersectionTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/LoopDetectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="59" column="64" selection-start-line="59" selection-start-column="64" selection-end-line="59" selection-end-column="64" />
+            <state relative-caret-position="345">
+              <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -83,6 +84,8 @@
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/PalindromeTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/Intersection.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/IntersectionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/LoopDetection.java" />
+        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/LoopDetectionTest.java" />
       </list>
     </option>
   </component>
@@ -100,6 +103,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,39 +144,12 @@
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="ctci" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="ctci" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,13 +170,13 @@
       <recent name="xyz.toddlasley.ctci.linkedlists" />
       <recent name="xyz.toddlasley.ctci.arraysandstrings" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
   </component>
@@ -215,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IntersectionTest">
+  <component name="RunManager" selected="JUnit.LoopDetectionTest">
     <configuration name="IntersectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
@@ -263,7 +240,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntersectionTest.getKthNodeTraversesToKthNodeOfLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoopDetectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
         <pattern>
@@ -272,14 +249,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.linkedlists" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.IntersectionTest" />
-      <option name="METHOD_NAME" value="getKthNodeTraversesToKthNodeOfLinkedList" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.LoopDetectionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntersectionTest.getLengthAndTailReturnsLengthAndTailOfLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoopDetectionTest.findBeginningSuccessfullyDetectsStartOfLoop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
         <pattern>
@@ -288,27 +264,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.linkedlists" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.IntersectionTest" />
-      <option name="METHOD_NAME" value="getLengthAndTailReturnsLengthAndTailOfLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.linkedlists.LoopDetectionTest" />
+      <option name="METHOD_NAME" value="findBeginningSuccessfullyDetectsStartOfLoop" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.IntersectionTest.getLengthAndTailReturnsLengthAndTailOfLinkedList" />
-      <item itemvalue="JUnit.IntersectionTest.getKthNodeTraversesToKthNodeOfLinkedList" />
       <item itemvalue="JUnit.IntersectionTest.findIntersectionSucessfullyFindsIntersectionForSameSizeLists" />
       <item itemvalue="JUnit.IntersectionTest.findIntersectionSucessfullyFindsIntersectionForDifferentSizedLists" />
       <item itemvalue="JUnit.IntersectionTest" />
+      <item itemvalue="JUnit.LoopDetectionTest.findBeginningSuccessfullyDetectsStartOfLoop" />
+      <item itemvalue="JUnit.LoopDetectionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoopDetectionTest" />
+        <item itemvalue="JUnit.LoopDetectionTest.findBeginningSuccessfullyDetectsStartOfLoop" />
         <item itemvalue="JUnit.IntersectionTest" />
         <item itemvalue="JUnit.IntersectionTest.findIntersectionSucessfullyFindsIntersectionForDifferentSizedLists" />
         <item itemvalue="JUnit.IntersectionTest.findIntersectionSucessfullyFindsIntersectionForSameSizeLists" />
-        <item itemvalue="JUnit.IntersectionTest.getKthNodeTraversesToKthNodeOfLinkedList" />
-        <item itemvalue="JUnit.IntersectionTest.getLengthAndTailReturnsLengthAndTailOfLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -330,14 +306,12 @@
       <workItem from="1575830970946" duration="2078000" />
       <workItem from="1576036676364" duration="1069000" />
       <workItem from="1576296454958" duration="2920000" />
-      <workItem from="1576384551486" duration="6101000" />
+      <workItem from="1576384551486" duration="6154000" />
+      <workItem from="1576552245831" duration="679000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SumListsTest_insertBeforeAddsValueToFrontOfNode - 2019.12.15 at 00h 37m 15s.xml">
-      <configuration name="SumListsTest.insertBeforeAddsValueToFrontOfNode" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SumListsTest - 2019.12.15 at 00h 37m 23s.xml">
       <configuration name="SumListsTest" configurationId="JUnit" />
     </history-entry>
@@ -365,15 +339,18 @@
     <history-entry file="IntersectionTest_findIntersectionSucessfullyFindsIntersectionForDifferentSizedLists - 2019.12.15 at 22h 34m 18s.xml">
       <configuration name="IntersectionTest.findIntersectionSucessfullyFindsIntersectionForDifferentSizedLists" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IntersectionTest - 2019.12.15 at 22h 35m 49s.xml">
+      <configuration name="IntersectionTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30303000" />
+    <option name="totallyTimeSpent" value="31035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26967096" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2732475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -382,7 +359,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -700,17 +677,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/IntersectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="59" column="64" selection-start-line="59" selection-start-column="64" selection-end-line="59" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/Intersection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-337">
+        <state relative-caret-position="15">
           <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/IntersectionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/LoopDetection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="59" column="64" selection-start-line="59" selection-start-column="64" selection-end-line="59" selection-end-column="64" />
+        <state relative-caret-position="268">
+          <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="47" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/LoopDetectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
         </state>
       </provider>
     </entry>
