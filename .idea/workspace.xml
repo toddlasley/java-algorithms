@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/stacksandqueues/SortStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/stacksandqueues/SortStack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,29 +15,33 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/stacksandqueues/SortStack.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
-              <folding>
-                <element signature="e#0#871#0" expanded="true" />
-                <element signature="e#193#202#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/stacksandqueues/SortStackTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/traversals/InOrderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/InOrderTraversalTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
-                <element signature="e#241#250#0" expanded="true" />
-                <element signature="e#832#841#0" expanded="true" />
-                <element signature="e#875#884#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#4347#4348#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,10 +110,13 @@
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/stacksandqueues/SortedStack.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/stacksandqueues/SortStackTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/stacksandqueues/SortStack.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/traversals/InOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/InOrderTraversalTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="812" />
@@ -138,6 +144,19 @@
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -162,17 +181,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="xyz.toddlasley.datastructures.trees.traversals" />
       <recent name="xyz.toddlasley.ctci.stacksandqueues" />
       <recent name="xyz.toddlasley.ctci.linkedlists" />
       <recent name="xyz.toddlasley.ctci.arraysandstrings" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
   </component>
@@ -188,26 +208,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SortStackTest">
-    <configuration name="All in java-algorithms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.InOrderTraversalTest">
+    <configuration name="InOrderTraversalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.datastructures.trees.traversals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.datastructures.trees.traversals" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.datastructures.trees.traversals.InOrderTraversalTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyQueueTest.myQueuObjectsOffersCoreQueueDataStructureFunctionality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InOrderTraversalTest.traverseReturnsNullIfNoTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.ctci.stacksandqueues.*" />
+          <option name="PATTERN" value="xyz.toddlasley.datastructures.trees.traversals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.stacksandqueues" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.stacksandqueues.MyQueueTest" />
-      <option name="METHOD_NAME" value="myQueuObjectsOffersCoreQueueDataStructureFunctionality" />
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.datastructures.trees.traversals" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.datastructures.trees.traversals.InOrderTraversalTest" />
+      <option name="METHOD_NAME" value="traverseReturnsNullIfNoTree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InOrderTraversalTest.traverseReturnsRootNodeIfNoOtherNodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.datastructures.trees.traversals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.datastructures.trees.traversals" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.datastructures.trees.traversals.InOrderTraversalTest" />
+      <option name="METHOD_NAME" value="traverseReturnsRootNodeIfNoOtherNodes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InOrderTraversalTest.traverseRunsInOrderTraversalOnATree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.datastructures.trees.traversals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.datastructures.trees.traversals" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.datastructures.trees.traversals.InOrderTraversalTest" />
+      <option name="METHOD_NAME" value="traverseRunsInOrderTraversalOnATree" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -228,52 +287,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortStackTest.sortLeavesSortedStackAlone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.ctci.stacksandqueues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.stacksandqueues" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.stacksandqueues.SortStackTest" />
-      <option name="METHOD_NAME" value="sortLeavesSortedStackAlone" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortStackTest.sortSuccessfullySortsStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.ctci.stacksandqueues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.ctci.stacksandqueues" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.ctci.stacksandqueues.SortStackTest" />
-      <option name="METHOD_NAME" value="sortSuccessfullySortsStack" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.MyQueueTest.myQueuObjectsOffersCoreQueueDataStructureFunctionality" />
-      <item itemvalue="JUnit.All in java-algorithms" />
-      <item itemvalue="JUnit.SortStackTest.sortSuccessfullySortsStack" />
-      <item itemvalue="JUnit.SortStackTest.sortLeavesSortedStackAlone" />
       <item itemvalue="JUnit.SortStackTest" />
+      <item itemvalue="JUnit.InOrderTraversalTest.traverseRunsInOrderTraversalOnATree" />
+      <item itemvalue="JUnit.InOrderTraversalTest.traverseReturnsRootNodeIfNoOtherNodes" />
+      <item itemvalue="JUnit.InOrderTraversalTest.traverseReturnsNullIfNoTree" />
+      <item itemvalue="JUnit.InOrderTraversalTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InOrderTraversalTest" />
+        <item itemvalue="JUnit.InOrderTraversalTest.traverseReturnsNullIfNoTree" />
+        <item itemvalue="JUnit.InOrderTraversalTest.traverseReturnsRootNodeIfNoOtherNodes" />
+        <item itemvalue="JUnit.InOrderTraversalTest.traverseRunsInOrderTraversalOnATree" />
         <item itemvalue="JUnit.SortStackTest" />
-        <item itemvalue="JUnit.SortStackTest.sortLeavesSortedStackAlone" />
-        <item itemvalue="JUnit.SortStackTest.sortSuccessfullySortsStack" />
-        <item itemvalue="JUnit.All in java-algorithms" />
-        <item itemvalue="JUnit.MyQueueTest.myQueuObjectsOffersCoreQueueDataStructureFunctionality" />
       </list>
     </recent_temporary>
   </component>
@@ -298,44 +325,45 @@
       <workItem from="1576384551486" duration="6154000" />
       <workItem from="1576552245831" duration="1209000" />
       <workItem from="1576798448098" duration="9320000" />
-      <workItem from="1577043542181" duration="2945000" />
+      <workItem from="1577043542181" duration="3458000" />
+      <workItem from="1577554271952" duration="5188000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyQueueTest_myQueuObjectsOffersCoreQueueDataStructureFunctionality - 2019.12.22 at 14h 55m 49s.xml">
-      <configuration name="MyQueueTest.myQueuObjectsOffersCoreQueueDataStructureFunctionality" configurationId="JUnit" />
+    <history-entry file="InOrderTraversalTest_traverseRunsInOrderTraversalOnATree - 2019.12.28 at 14h 08m 21s.xml">
+      <configuration name="InOrderTraversalTest.traverseRunsInOrderTraversalOnATree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyQueueTest_myQueuObjectsOffersCoreQueueDataStructureFunctionality - 2019.12.22 at 14h 56m 35s.xml">
-      <configuration name="MyQueueTest.myQueuObjectsOffersCoreQueueDataStructureFunctionality" configurationId="JUnit" />
+    <history-entry file="InOrderTraversalTest_traverseRunsInOrderTraversalOnATree - 2019.12.28 at 14h 14m 09s.xml">
+      <configuration name="InOrderTraversalTest.traverseRunsInOrderTraversalOnATree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyQueueTest_myQueuObjectsOffersCoreQueueDataStructureFunctionality - 2019.12.22 at 14h 58m 15s.xml">
-      <configuration name="MyQueueTest.myQueuObjectsOffersCoreQueueDataStructureFunctionality" configurationId="JUnit" />
+    <history-entry file="InOrderTraversalTest_traverseRunsInOrderTraversalOnATree - 2019.12.28 at 14h 20m 27s.xml">
+      <configuration name="InOrderTraversalTest.traverseRunsInOrderTraversalOnATree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyQueueTest_myQueuObjectsOffersCoreQueueDataStructureFunctionality - 2019.12.22 at 14h 58m 25s.xml">
-      <configuration name="MyQueueTest.myQueuObjectsOffersCoreQueueDataStructureFunctionality" configurationId="JUnit" />
+    <history-entry file="InOrderTraversalTest_traverseRunsInOrderTraversalOnATree - 2019.12.28 at 14h 23m 50s.xml">
+      <configuration name="InOrderTraversalTest.traverseRunsInOrderTraversalOnATree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyQueueTest_myQueuObjectsOffersCoreQueueDataStructureFunctionality - 2019.12.22 at 14h 59m 34s.xml">
-      <configuration name="MyQueueTest.myQueuObjectsOffersCoreQueueDataStructureFunctionality" configurationId="JUnit" />
+    <history-entry file="InOrderTraversalTest_traverseRunsInOrderTraversalOnATree - 2019.12.28 at 14h 26m 58s.xml">
+      <configuration name="InOrderTraversalTest.traverseRunsInOrderTraversalOnATree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_java-algorithms - 2019.12.22 at 15h 15m 44s.xml">
-      <configuration name="All in java-algorithms" configurationId="JUnit" />
+    <history-entry file="InOrderTraversalTest_traverseRunsInOrderTraversalOnATree - 2019.12.28 at 14h 31m 46s.xml">
+      <configuration name="InOrderTraversalTest.traverseRunsInOrderTraversalOnATree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortStackTest_sortSuccessfullySortsStack - 2019.12.22 at 16h 38m 51s.xml">
-      <configuration name="SortStackTest.sortSuccessfullySortsStack" configurationId="JUnit" />
+    <history-entry file="InOrderTraversalTest_traverseRunsInOrderTraversalOnATree - 2019.12.28 at 14h 32m 14s.xml">
+      <configuration name="InOrderTraversalTest.traverseRunsInOrderTraversalOnATree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortStackTest_sortSuccessfullySortsStack - 2019.12.22 at 16h 38m 59s.xml">
-      <configuration name="SortStackTest.sortSuccessfullySortsStack" configurationId="JUnit" />
+    <history-entry file="InOrderTraversalTest_traverseReturnsRootNodeIfNoOtherNodes - 2019.12.28 at 14h 33m 54s.xml">
+      <configuration name="InOrderTraversalTest.traverseReturnsRootNodeIfNoOtherNodes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortStackTest_sortLeavesSortedStackAlone - 2019.12.22 at 16h 39m 52s.xml">
-      <configuration name="SortStackTest.sortLeavesSortedStackAlone" configurationId="JUnit" />
+    <history-entry file="InOrderTraversalTest_traverseReturnsNullIfNoTree - 2019.12.28 at 14h 34m 44s.xml">
+      <configuration name="InOrderTraversalTest.traverseReturnsNullIfNoTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortStackTest - 2019.12.22 at 16h 41m 48s.xml">
-      <configuration name="SortStackTest" configurationId="JUnit" />
+    <history-entry file="InOrderTraversalTest - 2019.12.28 at 14h 40m 04s.xml">
+      <configuration name="InOrderTraversalTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43830000" />
+    <option name="totallyTimeSpent" value="49531000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -347,10 +375,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28040057" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28397712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -359,7 +387,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32916668" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,22 +455,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/sorts/InsertionSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-algorithms.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java-algorithms.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/CheckPermutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -827,25 +839,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/stacksandqueues/SortStackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-          <folding>
-            <element signature="e#241#250#0" expanded="true" />
-            <element signature="e#832#841#0" expanded="true" />
-            <element signature="e#875#884#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/stacksandqueues/SortStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/stacksandqueues/SortStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/traversals/InOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/InOrderTraversalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="e#0#871#0" expanded="true" />
-            <element signature="e#193#202#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#4347#4348#0" expanded="true" />
           </folding>
         </state>
       </provider>
