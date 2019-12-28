@@ -15,25 +15,25 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/traversals/PreOrderTraversal.java">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/traversals/PostOrderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="60">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/PreOrderTraversalTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/PostOrderTraversalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="117" column="1" lean-forward="true" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
+            <state relative-caret-position="563">
+              <caret line="102" column="46" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4284#4285#0" expanded="true" />
-                <element signature="e#4343#4344#0" expanded="true" />
+                <element signature="e#4219#4220#0" expanded="true" />
+                <element signature="e#4279#4280#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,12 +42,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/InOrderTraversalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="116" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="116" selection-end-column="5" />
+            <state relative-caret-position="380">
+              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4288#4289#0" expanded="true" />
                 <element signature="e#4347#4348#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/PreOrderTraversalTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1740">
+              <caret line="116" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="116" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4295#4296#0" expanded="true" />
+                <element signature="e#4355#4356#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,8 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/CheckPermutation.java" />
-        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/URLify.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/PalindromePermutation.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/PalindromePermutationTest.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/CheckPermutationTest.java" />
@@ -119,11 +131,13 @@
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/InOrderTraversalTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/traversals/InOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/traversals/PreOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/traversals/PostOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/PreOrderTraversalTest.java" />
+        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/PostOrderTraversalTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="812" />
@@ -136,7 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,7 +219,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,13 +242,13 @@
       <recent name="xyz.toddlasley.ctci.linkedlists" />
       <recent name="xyz.toddlasley.ctci.arraysandstrings" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
   </component>
@@ -250,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PreOrderTraversalTest">
+  <component name="RunManager" selected="JUnit.PostOrderTraversalTest">
     <configuration name="InOrderTraversalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
@@ -298,7 +312,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InOrderTraversalTest.traverseRunsInOrderTraversalOnATree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostOrderTraversalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
         <pattern>
@@ -307,9 +321,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="xyz.toddlasley.datastructures.trees.traversals" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.datastructures.trees.traversals.InOrderTraversalTest" />
-      <option name="METHOD_NAME" value="traverseRunsInOrderTraversalOnATree" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.datastructures.trees.traversals.PostOrderTraversalTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -330,19 +343,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.InOrderTraversalTest.traverseRunsInOrderTraversalOnATree" />
       <item itemvalue="JUnit.InOrderTraversalTest.traverseReturnsRootNodeIfNoOtherNodes" />
       <item itemvalue="JUnit.InOrderTraversalTest.traverseReturnsNullIfNoTree" />
       <item itemvalue="JUnit.InOrderTraversalTest" />
       <item itemvalue="JUnit.PreOrderTraversalTest" />
+      <item itemvalue="JUnit.PostOrderTraversalTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PostOrderTraversalTest" />
         <item itemvalue="JUnit.PreOrderTraversalTest" />
         <item itemvalue="JUnit.InOrderTraversalTest" />
         <item itemvalue="JUnit.InOrderTraversalTest.traverseReturnsNullIfNoTree" />
         <item itemvalue="JUnit.InOrderTraversalTest.traverseReturnsRootNodeIfNoOtherNodes" />
-        <item itemvalue="JUnit.InOrderTraversalTest.traverseRunsInOrderTraversalOnATree" />
       </list>
     </recent_temporary>
   </component>
@@ -368,23 +381,12 @@
       <workItem from="1576552245831" duration="1209000" />
       <workItem from="1576798448098" duration="9320000" />
       <workItem from="1577043542181" duration="3458000" />
-      <workItem from="1577554271952" duration="6127000" />
+      <workItem from="1577554271952" duration="6984000" />
+      <workItem from="1577569699369" duration="1785000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InOrderTraversalTest_traverseRunsInOrderTraversalOnATree - 2019.12.28 at 14h 23m 50s.xml">
-      <configuration name="InOrderTraversalTest.traverseRunsInOrderTraversalOnATree" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InOrderTraversalTest_traverseRunsInOrderTraversalOnATree - 2019.12.28 at 14h 26m 58s.xml">
-      <configuration name="InOrderTraversalTest.traverseRunsInOrderTraversalOnATree" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InOrderTraversalTest_traverseRunsInOrderTraversalOnATree - 2019.12.28 at 14h 31m 46s.xml">
-      <configuration name="InOrderTraversalTest.traverseRunsInOrderTraversalOnATree" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InOrderTraversalTest_traverseRunsInOrderTraversalOnATree - 2019.12.28 at 14h 32m 14s.xml">
-      <configuration name="InOrderTraversalTest.traverseRunsInOrderTraversalOnATree" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="InOrderTraversalTest_traverseReturnsRootNodeIfNoOtherNodes - 2019.12.28 at 14h 33m 54s.xml">
       <configuration name="InOrderTraversalTest.traverseReturnsRootNodeIfNoOtherNodes" configurationId="JUnit" />
     </history-entry>
@@ -403,9 +405,21 @@
     <history-entry file="PreOrderTraversalTest - 2019.12.28 at 14h 53m 04s.xml">
       <configuration name="PreOrderTraversalTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PreOrderTraversalTest - 2019.12.28 at 14h 56m 57s.xml">
+      <configuration name="PreOrderTraversalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PostOrderTraversalTest - 2019.12.28 at 17h 05m 26s.xml">
+      <configuration name="PostOrderTraversalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PostOrderTraversalTest - 2019.12.28 at 17h 07m 08s.xml">
+      <configuration name="PostOrderTraversalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PostOrderTraversalTest - 2019.12.28 at 17h 07m 45s.xml">
+      <configuration name="PostOrderTraversalTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50470000" />
+    <option name="totallyTimeSpent" value="53112000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -420,7 +434,7 @@
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28397712" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28755364" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -497,20 +511,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/URLify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/sorts/MergeSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/PalindromePermutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13">
@@ -895,17 +895,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/traversals/PostOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/traversals/PreOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
+        <state relative-caret-position="60">
           <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/PreOrderTraversalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="116" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="116" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4295#4296#0" expanded="true" />
+            <element signature="e#4355#4356#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/InOrderTraversalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="116" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="116" selection-end-column="5" />
+        <state relative-caret-position="380">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4288#4289#0" expanded="true" />
@@ -914,14 +933,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/PreOrderTraversalTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/PostOrderTraversalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="117" column="1" lean-forward="true" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
+        <state relative-caret-position="563">
+          <caret line="102" column="46" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4284#4285#0" expanded="true" />
-            <element signature="e#4343#4344#0" expanded="true" />
+            <element signature="e#4219#4220#0" expanded="true" />
+            <element signature="e#4279#4280#0" expanded="true" />
           </folding>
         </state>
       </provider>
