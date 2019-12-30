@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 
 public class PostOrderTraversalTest {
     @Test
-    public void traversePrintsStringOfInOrderTraversalOnAGivenTree() {
+    public void traversePrintsStringOfPostOrderTraversalOnAGivenTree() {
         // a complete binary tree (fills left to right)
         //           10
         //         /   \
