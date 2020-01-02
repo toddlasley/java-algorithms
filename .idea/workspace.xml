@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/utilities/IdentifyBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/utilities/IdentifyBinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/linkedlists/CopyListWithRandomPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/linkedlists/CopyListWithRandomPointer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,19 +17,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/utilities/IdentifyBinarySearchTree.java">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/linkedlists/CopyListWithRandomPointer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/utilities/IdentifyBinarySearchTreeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2355">
-              <caret line="161" column="19" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="19" />
+            <state relative-caret-position="60">
+              <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
+              <folding>
+                <element signature="e#0#1858#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,8 +44,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/OneAwayTest.java" />
-        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/StringCompression.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/StringCompressionTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/RotateMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/ZeroMatrix.java" />
@@ -101,6 +93,8 @@
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/BreadthFirstTraversalTest.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/utilities/IdentifyBinarySearchTreeTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/utilities/IdentifyBinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/linkedlists/CopyListWithRandomPointerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/linkedlists/CopyListWithRandomPointer.java" />
       </list>
     </option>
   </component>
@@ -140,65 +134,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="ctci" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="ctci" type="462c0819:PsiDirectoryNode" />
               <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="trees" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="trees" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="trees" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="trees" type="462c0819:PsiDirectoryNode" />
-              <item name="traversals" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -227,11 +168,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="xyz.toddlasley.leetcode.medium.linkedlists" />
       <recent name="xyz.toddlasley.datastructures.trees.utilities" />
       <recent name="xyz.toddlasley.datastructures.trees.traversals" />
       <recent name="xyz.toddlasley.ctci.stacksandqueues" />
       <recent name="xyz.toddlasley.ctci.linkedlists" />
-      <recent name="xyz.toddlasley.ctci.arraysandstrings" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
@@ -255,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IdentifyBinarySearchTreeTest">
+  <component name="RunManager" selected="JUnit.CopyListWithRandomPointerTest.copyRandomListReturnsDeepCopyOfList">
     <configuration name="BreadthFirstTraversalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
@@ -271,17 +212,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BreadthFirstTraversalTest.printNodesPrintsStringOfBreadthFirstTraversalOnAGivenTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CopyListWithRandomPointerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.datastructures.trees.traversals.*" />
+          <option name="PATTERN" value="xyz.toddlasley.leetcode.medium.linkedlists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.datastructures.trees.traversals" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.datastructures.trees.traversals.BreadthFirstTraversalTest" />
-      <option name="METHOD_NAME" value="printNodesPrintsStringOfBreadthFirstTraversalOnAGivenTree" />
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.medium.linkedlists" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.linkedlists.CopyListWithRandomPointerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CopyListWithRandomPointerTest.copyRandomListReturnsDeepCopyOfList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.leetcode.medium.linkedlists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.medium.linkedlists" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.linkedlists.CopyListWithRandomPointerTest" />
+      <option name="METHOD_NAME" value="copyRandomListReturnsDeepCopyOfList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -318,35 +274,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.sorts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.sorts" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.sorts.MergeSortTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.MergeSortTest" />
-      <item itemvalue="JUnit.BreadthFirstTraversalTest.printNodesPrintsStringOfBreadthFirstTraversalOnAGivenTree" />
       <item itemvalue="JUnit.BreadthFirstTraversalTest" />
       <item itemvalue="JUnit.IdentifyBinarySearchTreeTest" />
       <item itemvalue="JUnit.IdentifyBinarySearchTreeTest.isBinarySearchTreeCorrectlyIdentifiesIfGivenTreeIsBST" />
+      <item itemvalue="JUnit.CopyListWithRandomPointerTest" />
+      <item itemvalue="JUnit.CopyListWithRandomPointerTest.copyRandomListReturnsDeepCopyOfList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CopyListWithRandomPointerTest.copyRandomListReturnsDeepCopyOfList" />
+        <item itemvalue="JUnit.CopyListWithRandomPointerTest" />
         <item itemvalue="JUnit.IdentifyBinarySearchTreeTest" />
         <item itemvalue="JUnit.IdentifyBinarySearchTreeTest.isBinarySearchTreeCorrectlyIdentifiesIfGivenTreeIsBST" />
         <item itemvalue="JUnit.BreadthFirstTraversalTest" />
-        <item itemvalue="JUnit.BreadthFirstTraversalTest.printNodesPrintsStringOfBreadthFirstTraversalOnAGivenTree" />
-        <item itemvalue="JUnit.MergeSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -374,26 +315,11 @@
       <workItem from="1577043542181" duration="3458000" />
       <workItem from="1577554271952" duration="6984000" />
       <workItem from="1577569699369" duration="3038000" />
-      <workItem from="1577720970797" duration="12564000" />
+      <workItem from="1577720970797" duration="15293000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IdentifyBinarySearchTreeTest - 2019.12.30 at 13h 20m 37s.xml">
-      <configuration name="IdentifyBinarySearchTreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IdentifyBinarySearchTreeTest - 2019.12.30 at 13h 22m 08s.xml">
-      <configuration name="IdentifyBinarySearchTreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IdentifyBinarySearchTreeTest - 2019.12.30 at 13h 52m 58s.xml">
-      <configuration name="IdentifyBinarySearchTreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IdentifyBinarySearchTreeTest - 2019.12.30 at 13h 55m 18s.xml">
-      <configuration name="IdentifyBinarySearchTreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IdentifyBinarySearchTreeTest_isBinarySearchTreeCorrectlyIdentifiesIfGivenTreeIsBST - 2019.12.30 at 13h 58m 57s.xml">
-      <configuration name="IdentifyBinarySearchTreeTest.isBinarySearchTreeCorrectlyIdentifiesIfGivenTreeIsBST" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IdentifyBinarySearchTreeTest - 2019.12.30 at 14h 03m 49s.xml">
       <configuration name="IdentifyBinarySearchTreeTest" configurationId="JUnit" />
     </history-entry>
@@ -409,9 +335,24 @@
     <history-entry file="IdentifyBinarySearchTreeTest - 2019.12.30 at 14h 32m 17s.xml">
       <configuration name="IdentifyBinarySearchTreeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CopyListWithRandomPointerTest - 2020.01.01 at 23h 25m 51s.xml">
+      <configuration name="CopyListWithRandomPointerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CopyListWithRandomPointerTest_copyRandomListReturnsDeepCopyOfList - 2020.01.01 at 23h 35m 56s.xml">
+      <configuration name="CopyListWithRandomPointerTest.copyRandomListReturnsDeepCopyOfList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CopyListWithRandomPointerTest_copyRandomListReturnsDeepCopyOfList - 2020.01.01 at 23h 37m 39s.xml">
+      <configuration name="CopyListWithRandomPointerTest.copyRandomListReturnsDeepCopyOfList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CopyListWithRandomPointerTest_copyRandomListReturnsDeepCopyOfList - 2020.01.01 at 23h 38m 23s.xml">
+      <configuration name="CopyListWithRandomPointerTest.copyRandomListReturnsDeepCopyOfList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CopyListWithRandomPointerTest_copyRandomListReturnsDeepCopyOfList - 2020.01.01 at 23h 40m 32s.xml">
+      <configuration name="CopyListWithRandomPointerTest.copyRandomListReturnsDeepCopyOfList" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66929000" />
+    <option name="totallyTimeSpent" value="69658000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,7 +367,7 @@
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2918455" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2918455" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -435,7 +376,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -503,20 +444,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/StringCompression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/StringCompressionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/ZeroMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
@@ -903,17 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/BreadthFirstTraversalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="854">
-          <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
-          <folding>
-            <element signature="e#4293#4294#0" expanded="true" />
-            <element signature="e#4352#4353#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/InOrderTraversalTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1">
@@ -926,6 +842,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/utilities/IdentifyBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/utilities/IdentifyBinarySearchTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2355">
@@ -933,10 +856,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/utilities/IdentifyBinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/BreadthFirstTraversalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="900">
+          <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/linkedlists/CopyListWithRandomPointerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="51" column="78" selection-start-line="51" selection-start-column="78" selection-end-line="51" selection-end-column="78" />
+          <folding>
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/linkedlists/CopyListWithRandomPointer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#1858#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
