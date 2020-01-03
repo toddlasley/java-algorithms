@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/ClosestThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/ClosestThreeSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,24 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/ThreeSumNonUnique.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/ClosestThreeSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="45">
+              <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
               <folding>
-                <element signature="e#0#1909#0" expanded="true" />
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#1183#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/ThreeSumNonUniqueTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/ClosestThreeSumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+            <state relative-caret-position="195">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -54,8 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/ZeroMatrix.java" />
-        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/RotateMatrixTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/StringRotation.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/StringRotationTest.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/ZeroMatrixTest.java" />
@@ -105,6 +104,8 @@
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/linkedlists/CopyListWithRandomPointer.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/ThreeSumNonUnique.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/ThreeSumNonUniqueTest.java" />
+        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/ClosestThreeSumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/ClosestThreeSum.java" />
       </list>
     </option>
   </component>
@@ -209,7 +210,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ThreeSumNonUniqueTest.threeSumReturnsUniqueCombinationsOfValuesThatSumZero">
+  <component name="RunManager" selected="JUnit.ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue">
+    <configuration name="ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.leetcode.medium.arraysandstrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings.ClosestThreeSumTest" />
+      <option name="METHOD_NAME" value="threeSumClosestReturnsClosestSumToTargetValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CopyListWithRandomPointerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
@@ -237,21 +254,6 @@
       <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.linkedlists.CopyListWithRandomPointerTest" />
       <option name="METHOD_NAME" value="copyRandomListReturnsDeepCopyOfList" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IdentifyBinarySearchTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.datastructures.trees.utilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.datastructures.trees.utilities" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.datastructures.trees.utilities.IdentifyBinarySearchTreeTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -289,19 +291,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.IdentifyBinarySearchTreeTest" />
       <item itemvalue="JUnit.CopyListWithRandomPointerTest" />
       <item itemvalue="JUnit.CopyListWithRandomPointerTest.copyRandomListReturnsDeepCopyOfList" />
       <item itemvalue="JUnit.ThreeSumNonUniqueTest.threeSumReturnsAnEmptyListForNoValuesMeetingTheSum" />
       <item itemvalue="JUnit.ThreeSumNonUniqueTest.threeSumReturnsUniqueCombinationsOfValuesThatSumZero" />
+      <item itemvalue="JUnit.ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" />
         <item itemvalue="JUnit.ThreeSumNonUniqueTest.threeSumReturnsUniqueCombinationsOfValuesThatSumZero" />
         <item itemvalue="JUnit.ThreeSumNonUniqueTest.threeSumReturnsAnEmptyListForNoValuesMeetingTheSum" />
         <item itemvalue="JUnit.CopyListWithRandomPointerTest.copyRandomListReturnsDeepCopyOfList" />
         <item itemvalue="JUnit.CopyListWithRandomPointerTest" />
-        <item itemvalue="JUnit.IdentifyBinarySearchTreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -330,29 +332,11 @@
       <workItem from="1577554271952" duration="6984000" />
       <workItem from="1577569699369" duration="3038000" />
       <workItem from="1577720970797" duration="15581000" />
-      <workItem from="1578022467902" duration="2174000" />
+      <workItem from="1578022467902" duration="3296000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IdentifyBinarySearchTreeTest - 2019.12.30 at 14h 32m 17s.xml">
-      <configuration name="IdentifyBinarySearchTreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CopyListWithRandomPointerTest - 2020.01.01 at 23h 25m 51s.xml">
-      <configuration name="CopyListWithRandomPointerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CopyListWithRandomPointerTest_copyRandomListReturnsDeepCopyOfList - 2020.01.01 at 23h 35m 56s.xml">
-      <configuration name="CopyListWithRandomPointerTest.copyRandomListReturnsDeepCopyOfList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CopyListWithRandomPointerTest_copyRandomListReturnsDeepCopyOfList - 2020.01.01 at 23h 37m 39s.xml">
-      <configuration name="CopyListWithRandomPointerTest.copyRandomListReturnsDeepCopyOfList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CopyListWithRandomPointerTest_copyRandomListReturnsDeepCopyOfList - 2020.01.01 at 23h 38m 23s.xml">
-      <configuration name="CopyListWithRandomPointerTest.copyRandomListReturnsDeepCopyOfList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CopyListWithRandomPointerTest_copyRandomListReturnsDeepCopyOfList - 2020.01.01 at 23h 40m 32s.xml">
-      <configuration name="CopyListWithRandomPointerTest.copyRandomListReturnsDeepCopyOfList" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ThreeSumNonUniqueTest_threeSumReturnsAnEmptyListForNoValuesMeetingTheSum - 2020.01.02 at 23h 10m 15s.xml">
       <configuration name="ThreeSumNonUniqueTest.threeSumReturnsAnEmptyListForNoValuesMeetingTheSum" configurationId="JUnit" />
     </history-entry>
@@ -365,9 +349,27 @@
     <history-entry file="ThreeSumNonUniqueTest_threeSumReturnsUniqueCombinationsOfValuesThatSumZero - 2020.01.02 at 23h 17m 46s.xml">
       <configuration name="ThreeSumNonUniqueTest.threeSumReturnsUniqueCombinationsOfValuesThatSumZero" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ClosestThreeSumTest_threeSumClosestReturnsClosestSumToTargetValue - 2020.01.03 at 00h 38m 02s.xml">
+      <configuration name="ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClosestThreeSumTest_threeSumClosestReturnsClosestSumToTargetValue - 2020.01.03 at 00h 39m 08s.xml">
+      <configuration name="ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClosestThreeSumTest_threeSumClosestReturnsClosestSumToTargetValue - 2020.01.03 at 00h 39m 42s.xml">
+      <configuration name="ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClosestThreeSumTest_threeSumClosestReturnsClosestSumToTargetValue - 2020.01.03 at 00h 40m 07s.xml">
+      <configuration name="ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClosestThreeSumTest_threeSumClosestReturnsClosestSumToTargetValue - 2020.01.03 at 00h 40m 41s.xml">
+      <configuration name="ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClosestThreeSumTest_threeSumClosestReturnsClosestSumToTargetValue - 2020.01.03 at 00h 41m 02s.xml">
+      <configuration name="ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72120000" />
+    <option name="totallyTimeSpent" value="73242000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -459,20 +461,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/StringRotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="25" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/KthToLast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/KthToLastTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -882,6 +870,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/ThreeSumNonUniqueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/ThreeSumNonUnique.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -893,10 +888,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/ThreeSumNonUniqueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/ClosestThreeSumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        <state relative-caret-position="195">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/ClosestThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#1183#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
