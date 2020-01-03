@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/ClosestThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/ClosestThreeSumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/ClosestThreeSum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -39,6 +35,27 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/PhoneNumberLetterCombinations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/PhoneNumberLetterCombinationsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -55,8 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/arraysandstrings/StringRotation.java" />
-        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/StringRotationTest.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/ZeroMatrixTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/DeleteDuplicates.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/DeleteDuplicatesTest.java" />
@@ -106,6 +121,8 @@
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/ThreeSumNonUniqueTest.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/ClosestThreeSumTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/ClosestThreeSum.java" />
+        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/PhoneNumberLetterCombinationsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/PhoneNumberLetterCombinations.java" />
       </list>
     </option>
   </component>
@@ -210,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue">
+  <component name="RunManager" selected="JUnit.PhoneNumberLetterCombinationsTest">
     <configuration name="ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
@@ -227,38 +244,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyListWithRandomPointerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.leetcode.medium.linkedlists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.medium.linkedlists" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.linkedlists.CopyListWithRandomPointerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CopyListWithRandomPointerTest.copyRandomListReturnsDeepCopyOfList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.leetcode.medium.linkedlists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.medium.linkedlists" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.linkedlists.CopyListWithRandomPointerTest" />
-      <option name="METHOD_NAME" value="copyRandomListReturnsDeepCopyOfList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreeSumNonUniqueTest.threeSumReturnsAnEmptyListForNoValuesMeetingTheSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneNumberLetterCombinationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
         <pattern>
@@ -267,8 +253,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings.ThreeSumNonUniqueTest" />
-      <option name="METHOD_NAME" value="threeSumReturnsAnEmptyListForNoValuesMeetingTheSum" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings.PhoneNumberLetterCombinationsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectNumberOfCombinations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.leetcode.medium.arraysandstrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings.PhoneNumberLetterCombinationsTest" />
+      <option name="METHOD_NAME" value="letterCombinationsReturnsCorrectNumberOfCombinations" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectUniqueCombinations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.leetcode.medium.arraysandstrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings.PhoneNumberLetterCombinationsTest" />
+      <option name="METHOD_NAME" value="letterCombinationsReturnsCorrectUniqueCombinations" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -291,19 +308,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CopyListWithRandomPointerTest" />
-      <item itemvalue="JUnit.CopyListWithRandomPointerTest.copyRandomListReturnsDeepCopyOfList" />
-      <item itemvalue="JUnit.ThreeSumNonUniqueTest.threeSumReturnsAnEmptyListForNoValuesMeetingTheSum" />
       <item itemvalue="JUnit.ThreeSumNonUniqueTest.threeSumReturnsUniqueCombinationsOfValuesThatSumZero" />
       <item itemvalue="JUnit.ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" />
+      <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectUniqueCombinations" />
+      <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectNumberOfCombinations" />
+      <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest" />
+        <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectNumberOfCombinations" />
+        <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectUniqueCombinations" />
         <item itemvalue="JUnit.ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" />
         <item itemvalue="JUnit.ThreeSumNonUniqueTest.threeSumReturnsUniqueCombinationsOfValuesThatSumZero" />
-        <item itemvalue="JUnit.ThreeSumNonUniqueTest.threeSumReturnsAnEmptyListForNoValuesMeetingTheSum" />
-        <item itemvalue="JUnit.CopyListWithRandomPointerTest.copyRandomListReturnsDeepCopyOfList" />
-        <item itemvalue="JUnit.CopyListWithRandomPointerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -332,26 +349,11 @@
       <workItem from="1577554271952" duration="6984000" />
       <workItem from="1577569699369" duration="3038000" />
       <workItem from="1577720970797" duration="15581000" />
-      <workItem from="1578022467902" duration="3296000" />
+      <workItem from="1578022467902" duration="4285000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ThreeSumNonUniqueTest_threeSumReturnsAnEmptyListForNoValuesMeetingTheSum - 2020.01.02 at 23h 10m 15s.xml">
-      <configuration name="ThreeSumNonUniqueTest.threeSumReturnsAnEmptyListForNoValuesMeetingTheSum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreeSumNonUniqueTest_threeSumReturnsUniqueCombinationsOfValuesThatSumZero - 2020.01.02 at 23h 16m 09s.xml">
-      <configuration name="ThreeSumNonUniqueTest.threeSumReturnsUniqueCombinationsOfValuesThatSumZero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreeSumNonUniqueTest_threeSumReturnsUniqueCombinationsOfValuesThatSumZero - 2020.01.02 at 23h 17m 35s.xml">
-      <configuration name="ThreeSumNonUniqueTest.threeSumReturnsUniqueCombinationsOfValuesThatSumZero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreeSumNonUniqueTest_threeSumReturnsUniqueCombinationsOfValuesThatSumZero - 2020.01.02 at 23h 17m 46s.xml">
-      <configuration name="ThreeSumNonUniqueTest.threeSumReturnsUniqueCombinationsOfValuesThatSumZero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClosestThreeSumTest_threeSumClosestReturnsClosestSumToTargetValue - 2020.01.03 at 00h 38m 02s.xml">
-      <configuration name="ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ClosestThreeSumTest_threeSumClosestReturnsClosestSumToTargetValue - 2020.01.03 at 00h 39m 08s.xml">
       <configuration name="ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" configurationId="JUnit" />
     </history-entry>
@@ -367,9 +369,24 @@
     <history-entry file="ClosestThreeSumTest_threeSumClosestReturnsClosestSumToTargetValue - 2020.01.03 at 00h 41m 02s.xml">
       <configuration name="ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PhoneNumberLetterCombinationsTest_letterCombinationsReturnsCorrectUniqueCombinations - 2020.01.03 at 02h 06m 35s.xml">
+      <configuration name="PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectUniqueCombinations" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhoneNumberLetterCombinationsTest_letterCombinationsReturnsCorrectUniqueCombinations - 2020.01.03 at 02h 06m 51s.xml">
+      <configuration name="PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectUniqueCombinations" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhoneNumberLetterCombinationsTest_letterCombinationsReturnsCorrectNumberOfCombinations - 2020.01.03 at 02h 07m 23s.xml">
+      <configuration name="PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectNumberOfCombinations" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhoneNumberLetterCombinationsTest_letterCombinationsReturnsCorrectNumberOfCombinations - 2020.01.03 at 02h 07m 58s.xml">
+      <configuration name="PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectNumberOfCombinations" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhoneNumberLetterCombinationsTest - 2020.01.03 at 02h 08m 43s.xml">
+      <configuration name="PhoneNumberLetterCombinationsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73242000" />
+    <option name="totallyTimeSpent" value="74231000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -461,20 +478,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/KthToLastTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/DeleteMiddleNodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/DeleteDuplicatesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-139">
@@ -888,6 +891,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/ClosestThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#1183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/ClosestThreeSumTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -895,12 +908,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/ClosestThreeSum.java">
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/PhoneNumberLetterCombinationsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+        <state relative-caret-position="120">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/PhoneNumberLetterCombinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding>
-            <element signature="e#0#1183#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
