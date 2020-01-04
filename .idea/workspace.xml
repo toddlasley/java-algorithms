@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/GroupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/GroupAnagramsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,27 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/GroupAnagrams.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/LongestSubstringNoRepeatedChars.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#943#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="24">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/GroupAnagramsTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/LongestSubstringNoRepeatedCharsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -59,8 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/DeleteDuplicatesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/KthToLast.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/KthToLastTest.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/DeleteMiddleNodeTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/DeleteMiddleNode.java" />
@@ -110,6 +97,8 @@
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/PhoneNumberLetterCombinations.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/GroupAnagramsTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/GroupAnagrams.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/LongestSubstringNoRepeatedChars.java" />
+        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/LongestSubstringNoRepeatedCharsTest.java" />
       </list>
     </option>
   </component>
@@ -214,23 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GroupAnagramsTest.groupAnagramsSuccessfullyGroupsAnagramsTogether">
-    <configuration name="ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.leetcode.medium.arraysandstrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings.ClosestThreeSumTest" />
-      <option name="METHOD_NAME" value="threeSumClosestReturnsClosestSumToTargetValue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters">
     <configuration name="GroupAnagramsTest.groupAnagramsSuccessfullyGroupsAnagramsTogether" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
@@ -242,6 +215,22 @@
       <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings" />
       <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings.GroupAnagramsTest" />
       <option name="METHOD_NAME" value="groupAnagramsSuccessfullyGroupsAnagramsTogether" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.leetcode.medium.arraysandstrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings.LongestSubstringNoRepeatedCharsTest" />
+      <option name="METHOD_NAME" value="lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -295,19 +284,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" />
       <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectUniqueCombinations" />
       <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectNumberOfCombinations" />
       <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest" />
       <item itemvalue="JUnit.GroupAnagramsTest.groupAnagramsSuccessfullyGroupsAnagramsTogether" />
+      <item itemvalue="JUnit.LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" />
         <item itemvalue="JUnit.GroupAnagramsTest.groupAnagramsSuccessfullyGroupsAnagramsTogether" />
         <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest" />
         <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectNumberOfCombinations" />
         <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectUniqueCombinations" />
-        <item itemvalue="JUnit.ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" />
       </list>
     </recent_temporary>
   </component>
@@ -336,20 +325,11 @@
       <workItem from="1577554271952" duration="6984000" />
       <workItem from="1577569699369" duration="3038000" />
       <workItem from="1577720970797" duration="15581000" />
-      <workItem from="1578022467902" duration="5743000" />
+      <workItem from="1578022467902" duration="7266000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClosestThreeSumTest_threeSumClosestReturnsClosestSumToTargetValue - 2020.01.03 at 00h 40m 41s.xml">
-      <configuration name="ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClosestThreeSumTest_threeSumClosestReturnsClosestSumToTargetValue - 2020.01.03 at 00h 41m 02s.xml">
-      <configuration name="ClosestThreeSumTest.threeSumClosestReturnsClosestSumToTargetValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PhoneNumberLetterCombinationsTest_letterCombinationsReturnsCorrectUniqueCombinations - 2020.01.03 at 02h 06m 35s.xml">
-      <configuration name="PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectUniqueCombinations" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PhoneNumberLetterCombinationsTest_letterCombinationsReturnsCorrectUniqueCombinations - 2020.01.03 at 02h 06m 51s.xml">
       <configuration name="PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectUniqueCombinations" configurationId="JUnit" />
     </history-entry>
@@ -371,9 +351,18 @@
     <history-entry file="GroupAnagramsTest_groupAnagramsSuccessfullyGroupsAnagramsTogether - 2020.01.03 at 12h 43m 46s.xml">
       <configuration name="GroupAnagramsTest.groupAnagramsSuccessfullyGroupsAnagramsTogether" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LongestSubstringNoRepeatedCharsTest_lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters - 2020.01.03 at 19h 06m 30s.xml">
+      <configuration name="LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongestSubstringNoRepeatedCharsTest_lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters - 2020.01.03 at 19h 07m 21s.xml">
+      <configuration name="LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongestSubstringNoRepeatedCharsTest_lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters - 2020.01.03 at 19h 07m 33s.xml">
+      <configuration name="LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75689000" />
+    <option name="totallyTimeSpent" value="77212000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,26 +454,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/PartitionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/PalindromePermutationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="79" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/Partition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -898,6 +867,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/GroupAnagrams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#943#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/GroupAnagramsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2">
@@ -908,14 +888,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/GroupAnagrams.java">
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/LongestSubstringNoRepeatedChars.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#943#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="24">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/LongestSubstringNoRepeatedCharsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
         </state>
       </provider>
     </entry>
