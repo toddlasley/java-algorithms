@@ -1,7 +1,6 @@
-package xyz.toddlasley.percolation;
+package xyz.toddlasley.random.percolation;
 
 import edu.princeton.cs.algs4.StdStats;
-import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdRandom;
 
 public class PercolationStats

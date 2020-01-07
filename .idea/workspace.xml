@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="" />
+    <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/percolation/Percolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/random/percolation/Percolation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/percolation/PercolationStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/random/percolation/PercolationStats.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,21 +17,27 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/LongestSubstringNoRepeatedChars.java">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/random/arraysandstrings/ContiguousAreasInGrid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            <state relative-caret-position="277">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#363#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/LongestSubstringNoRepeatedCharsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/random/arraysandstrings/ContiguousAreasInGridTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="203">
+              <caret line="22" column="93" lean-forward="true" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="93" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,14 +52,20 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>0</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>1</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/KthToLastTest.java" />
-        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/DeleteMiddleNodeTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/DeleteMiddleNode.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/Partition.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/PartitionTest.java" />
@@ -97,8 +113,10 @@
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/PhoneNumberLetterCombinations.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/GroupAnagramsTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/GroupAnagrams.java" />
-        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/LongestSubstringNoRepeatedChars.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/LongestSubstringNoRepeatedCharsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/LongestSubstringNoRepeatedChars.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/random/arraysandstrings/ContiguousAreasInGrid.java" />
+        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/random/arraysandstrings/ContiguousAreasInGridTest.java" />
       </list>
     </option>
   </component>
@@ -115,7 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,14 +156,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
               <item name="arraysandstrings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -158,6 +175,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,19 +193,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="xyz.toddlasley.random.arraysandstrings" />
       <recent name="xyz.toddlasley.leetcode.medium.arraysandstrings" />
       <recent name="xyz.toddlasley.leetcode.medium.linkedlists" />
       <recent name="xyz.toddlasley.datastructures.trees.utilities" />
       <recent name="xyz.toddlasley.datastructures.trees.traversals" />
-      <recent name="xyz.toddlasley.ctci.stacksandqueues" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
   </component>
@@ -203,7 +221,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters">
+  <component name="RunManager" selected="JUnit.ContiguousAreasInGridTest">
+    <configuration name="ContiguousAreasInGridTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.random.arraysandstrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.random.arraysandstrings" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.random.arraysandstrings.ContiguousAreasInGridTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContiguousAreasInGridTest.findContiguousAreasReturnsCountOfContiguousAreasInGrid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.random.arraysandstrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.random.arraysandstrings" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.random.arraysandstrings.ContiguousAreasInGridTest" />
+      <option name="METHOD_NAME" value="findContiguousAreasReturnsCountOfContiguousAreasInGrid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GroupAnagramsTest.groupAnagramsSuccessfullyGroupsAnagramsTogether" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
@@ -251,52 +300,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectNumberOfCombinations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.leetcode.medium.arraysandstrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings.PhoneNumberLetterCombinationsTest" />
-      <option name="METHOD_NAME" value="letterCombinationsReturnsCorrectNumberOfCombinations" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectUniqueCombinations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.leetcode.medium.arraysandstrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings.PhoneNumberLetterCombinationsTest" />
-      <option name="METHOD_NAME" value="letterCombinationsReturnsCorrectUniqueCombinations" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectUniqueCombinations" />
-      <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectNumberOfCombinations" />
       <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest" />
       <item itemvalue="JUnit.GroupAnagramsTest.groupAnagramsSuccessfullyGroupsAnagramsTogether" />
       <item itemvalue="JUnit.LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" />
+      <item itemvalue="JUnit.ContiguousAreasInGridTest.findContiguousAreasReturnsCountOfContiguousAreasInGrid" />
+      <item itemvalue="JUnit.ContiguousAreasInGridTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContiguousAreasInGridTest" />
+        <item itemvalue="JUnit.ContiguousAreasInGridTest.findContiguousAreasReturnsCountOfContiguousAreasInGrid" />
         <item itemvalue="JUnit.LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" />
         <item itemvalue="JUnit.GroupAnagramsTest.groupAnagramsSuccessfullyGroupsAnagramsTogether" />
         <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest" />
-        <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectNumberOfCombinations" />
-        <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectUniqueCombinations" />
       </list>
     </recent_temporary>
   </component>
@@ -325,44 +342,45 @@
       <workItem from="1577554271952" duration="6984000" />
       <workItem from="1577569699369" duration="3038000" />
       <workItem from="1577720970797" duration="15581000" />
-      <workItem from="1578022467902" duration="7266000" />
+      <workItem from="1578022467902" duration="7786000" />
+      <workItem from="1578357108511" duration="3456000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PhoneNumberLetterCombinationsTest_letterCombinationsReturnsCorrectUniqueCombinations - 2020.01.03 at 02h 06m 51s.xml">
-      <configuration name="PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectUniqueCombinations" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PhoneNumberLetterCombinationsTest_letterCombinationsReturnsCorrectNumberOfCombinations - 2020.01.03 at 02h 07m 23s.xml">
-      <configuration name="PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectNumberOfCombinations" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PhoneNumberLetterCombinationsTest_letterCombinationsReturnsCorrectNumberOfCombinations - 2020.01.03 at 02h 07m 58s.xml">
-      <configuration name="PhoneNumberLetterCombinationsTest.letterCombinationsReturnsCorrectNumberOfCombinations" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PhoneNumberLetterCombinationsTest - 2020.01.03 at 02h 08m 43s.xml">
-      <configuration name="PhoneNumberLetterCombinationsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GroupAnagramsTest_groupAnagramsSuccessfullyGroupsAnagramsTogether - 2020.01.03 at 12h 33m 53s.xml">
-      <configuration name="GroupAnagramsTest.groupAnagramsSuccessfullyGroupsAnagramsTogether" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GroupAnagramsTest_groupAnagramsSuccessfullyGroupsAnagramsTogether - 2020.01.03 at 12h 40m 30s.xml">
-      <configuration name="GroupAnagramsTest.groupAnagramsSuccessfullyGroupsAnagramsTogether" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GroupAnagramsTest_groupAnagramsSuccessfullyGroupsAnagramsTogether - 2020.01.03 at 12h 43m 46s.xml">
-      <configuration name="GroupAnagramsTest.groupAnagramsSuccessfullyGroupsAnagramsTogether" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LongestSubstringNoRepeatedCharsTest_lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters - 2020.01.03 at 19h 06m 30s.xml">
-      <configuration name="LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LongestSubstringNoRepeatedCharsTest_lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters - 2020.01.03 at 19h 07m 21s.xml">
       <configuration name="LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LongestSubstringNoRepeatedCharsTest_lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters - 2020.01.03 at 19h 07m 33s.xml">
       <configuration name="LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LongestSubstringNoRepeatedCharsTest_lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters - 2020.01.03 at 19h 07m 50s.xml">
+      <configuration name="LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongestSubstringNoRepeatedCharsTest_lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters - 2020.01.03 at 19h 08m 43s.xml">
+      <configuration name="LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContiguousAreasInGridTest_findContiguousAreasReturnsCountOfContiguousAreasInGrid - 2020.01.06 at 20h 09m 28s.xml">
+      <configuration name="ContiguousAreasInGridTest.findContiguousAreasReturnsCountOfContiguousAreasInGrid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContiguousAreasInGridTest_findContiguousAreasReturnsCountOfContiguousAreasInGrid - 2020.01.06 at 20h 11m 46s.xml">
+      <configuration name="ContiguousAreasInGridTest.findContiguousAreasReturnsCountOfContiguousAreasInGrid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContiguousAreasInGridTest - 2020.01.06 at 20h 13m 24s.xml">
+      <configuration name="ContiguousAreasInGridTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContiguousAreasInGridTest_findContiguousAreasReturnsCountOfContiguousAreasInGrid - 2020.01.06 at 20h 16m 13s.xml">
+      <configuration name="ContiguousAreasInGridTest.findContiguousAreasReturnsCountOfContiguousAreasInGrid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContiguousAreasInGridTest_findContiguousAreasReturnsCountOfContiguousAreasInGrid - 2020.01.06 at 20h 18m 33s.xml">
+      <configuration name="ContiguousAreasInGridTest.findContiguousAreasReturnsCountOfContiguousAreasInGrid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContiguousAreasInGridTest_findContiguousAreasReturnsCountOfContiguousAreasInGrid - 2020.01.06 at 20h 26m 47s.xml">
+      <configuration name="ContiguousAreasInGridTest.findContiguousAreasReturnsCountOfContiguousAreasInGrid" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77212000" />
+    <option name="totallyTimeSpent" value="81188000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -377,7 +395,7 @@
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29613733" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3004292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -454,36 +472,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/Partition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#2744#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/SumLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="96" column="45" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#4779#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/SumListsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="136" column="44" selection-start-line="136" selection-start-column="44" selection-end-line="136" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/types/PartialSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -890,8 +878,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/LongestSubstringNoRepeatedChars.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        <state relative-caret-position="302">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -899,6 +887,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/random/percolation/Percolation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/random/arraysandstrings/ContiguousAreasInGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/random/arraysandstrings/ContiguousAreasInGridTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="22" column="93" lean-forward="true" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
