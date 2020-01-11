@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/percolation/Percolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/random/percolation/Percolation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/percolation/PercolationStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/random/percolation/PercolationStats.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,25 +17,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/random/arraysandstrings/ContiguousAreasInGrid.java">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/easy/arraysandstrings/FindMaxArea.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding>
-                <element signature="e#0#363#0" expanded="true" />
+                <element signature="e#0#465#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/random/arraysandstrings/ContiguousAreasInGridTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/easy/arraysandstrings/FindMaxAreaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="22" column="93" lean-forward="true" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="93" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -66,8 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/DeleteMiddleNode.java" />
-        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/Partition.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/PartitionTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/types/LinkedListNode.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/types/PartialSum.java" />
@@ -117,6 +110,8 @@
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/LongestSubstringNoRepeatedChars.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/random/arraysandstrings/ContiguousAreasInGrid.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/random/arraysandstrings/ContiguousAreasInGridTest.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/easy/arraysandstrings/FindMaxArea.java" />
+        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/easy/arraysandstrings/FindMaxAreaTest.java" />
       </list>
     </option>
   </component>
@@ -133,6 +128,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,15 +153,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="random" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="random" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="arraysandstrings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -174,8 +179,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,19 +196,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="xyz.toddlasley.leetcode.easy.arraysandstrings" />
       <recent name="xyz.toddlasley.random.arraysandstrings" />
       <recent name="xyz.toddlasley.leetcode.medium.arraysandstrings" />
       <recent name="xyz.toddlasley.leetcode.medium.linkedlists" />
       <recent name="xyz.toddlasley.datastructures.trees.utilities" />
-      <recent name="xyz.toddlasley.datastructures.trees.traversals" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
   </component>
@@ -221,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ContiguousAreasInGridTest">
+  <component name="RunManager" selected="JUnit.FindMaxAreaTest.maxAreaFindsMaxAreaAmongHeights">
     <configuration name="ContiguousAreasInGridTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
@@ -248,6 +251,22 @@
       <option name="PACKAGE_NAME" value="xyz.toddlasley.random.arraysandstrings" />
       <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.random.arraysandstrings.ContiguousAreasInGridTest" />
       <option name="METHOD_NAME" value="findContiguousAreasReturnsCountOfContiguousAreasInGrid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMaxAreaTest.maxAreaFindsMaxAreaAmongHeights" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.leetcode.easy.arraysandstrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.easy.arraysandstrings" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.easy.arraysandstrings.FindMaxAreaTest" />
+      <option name="METHOD_NAME" value="maxAreaFindsMaxAreaAmongHeights" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -285,35 +304,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneNumberLetterCombinationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.leetcode.medium.arraysandstrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings.PhoneNumberLetterCombinationsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest" />
       <item itemvalue="JUnit.GroupAnagramsTest.groupAnagramsSuccessfullyGroupsAnagramsTogether" />
       <item itemvalue="JUnit.LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" />
       <item itemvalue="JUnit.ContiguousAreasInGridTest.findContiguousAreasReturnsCountOfContiguousAreasInGrid" />
       <item itemvalue="JUnit.ContiguousAreasInGridTest" />
+      <item itemvalue="JUnit.FindMaxAreaTest.maxAreaFindsMaxAreaAmongHeights" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindMaxAreaTest.maxAreaFindsMaxAreaAmongHeights" />
         <item itemvalue="JUnit.ContiguousAreasInGridTest" />
         <item itemvalue="JUnit.ContiguousAreasInGridTest.findContiguousAreasReturnsCountOfContiguousAreasInGrid" />
         <item itemvalue="JUnit.LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" />
         <item itemvalue="JUnit.GroupAnagramsTest.groupAnagramsSuccessfullyGroupsAnagramsTogether" />
-        <item itemvalue="JUnit.PhoneNumberLetterCombinationsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -343,17 +347,12 @@
       <workItem from="1577569699369" duration="3038000" />
       <workItem from="1577720970797" duration="15581000" />
       <workItem from="1578022467902" duration="7786000" />
-      <workItem from="1578357108511" duration="3456000" />
+      <workItem from="1578357108511" duration="4090000" />
+      <workItem from="1578717320960" duration="801000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LongestSubstringNoRepeatedCharsTest_lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters - 2020.01.03 at 19h 07m 21s.xml">
-      <configuration name="LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LongestSubstringNoRepeatedCharsTest_lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters - 2020.01.03 at 19h 07m 33s.xml">
-      <configuration name="LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LongestSubstringNoRepeatedCharsTest_lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters - 2020.01.03 at 19h 07m 50s.xml">
       <configuration name="LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" configurationId="JUnit" />
     </history-entry>
@@ -378,9 +377,15 @@
     <history-entry file="ContiguousAreasInGridTest_findContiguousAreasReturnsCountOfContiguousAreasInGrid - 2020.01.06 at 20h 26m 47s.xml">
       <configuration name="ContiguousAreasInGridTest.findContiguousAreasReturnsCountOfContiguousAreasInGrid" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ContiguousAreasInGridTest - 2020.01.06 at 20h 30m 15s.xml">
+      <configuration name="ContiguousAreasInGridTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindMaxAreaTest_maxAreaFindsMaxAreaAmongHeights - 2020.01.10 at 22h 47m 43s.xml">
+      <configuration name="FindMaxAreaTest.maxAreaFindsMaxAreaAmongHeights" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81188000" />
+    <option name="totallyTimeSpent" value="82623000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,7 +400,7 @@
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3004292" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30472103" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -472,20 +477,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/types/PartialSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/PalindromeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/Palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -909,11 +900,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/random/arraysandstrings/ContiguousAreasInGridTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="222">
           <caret line="22" column="93" lean-forward="true" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/easy/arraysandstrings/FindMaxArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/easy/arraysandstrings/FindMaxAreaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
         </state>
       </provider>
     </entry>
