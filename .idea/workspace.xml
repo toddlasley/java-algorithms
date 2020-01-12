@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/easy/arraysandstrings/MostCommonWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/easy/arraysandstrings/MostCommonWord.java" afterDir="false" />
-    </list>
+    <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,23 +14,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/easy/arraysandstrings/MostCommonWord.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/easy/linkedlists/ReverseLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            <state relative-caret-position="75">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#871#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/easy/arraysandstrings/MostCommonWordTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/easy/linkedlists/ReverseLinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="345">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+              <folding>
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,8 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/SumLists.java" />
-        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/SumListsTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/PalindromeTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/Intersection.java" />
@@ -112,6 +114,8 @@
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/arraysandstrings/MostCommonWord.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/easy/arraysandstrings/MostCommonWordTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/easy/arraysandstrings/MostCommonWord.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/easy/linkedlists/ReverseLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/easy/linkedlists/ReverseLinkedListTest.java" />
       </list>
     </option>
   </component>
@@ -168,7 +172,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="arraysandstrings" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlists" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -195,11 +208,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="xyz.toddlasley.leetcode.easy.linkedlists" />
       <recent name="xyz.toddlasley.leetcode.easy.arraysandstrings" />
       <recent name="xyz.toddlasley.random.arraysandstrings" />
       <recent name="xyz.toddlasley.leetcode.medium.arraysandstrings" />
       <recent name="xyz.toddlasley.leetcode.medium.linkedlists" />
-      <recent name="xyz.toddlasley.datastructures.trees.utilities" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="xyz.toddlasley.leetcode.easy.arraysandstrings" />
@@ -226,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MostCommonWordTest.mostCommonWordFindsMostCommonWordThatIsntBanned">
+  <component name="RunManager" selected="JUnit.ReverseLinkedListTest">
     <configuration name="ContiguousAreasInGridTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
@@ -242,22 +255,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContiguousAreasInGridTest.findContiguousAreasReturnsCountOfContiguousAreasInGrid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.random.arraysandstrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.random.arraysandstrings" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.random.arraysandstrings.ContiguousAreasInGridTest" />
-      <option name="METHOD_NAME" value="findContiguousAreasReturnsCountOfContiguousAreasInGrid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FindMaxAreaTest.maxAreaFindsMaxAreaAmongHeights" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
@@ -269,22 +266,6 @@
       <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.easy.arraysandstrings" />
       <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.easy.arraysandstrings.FindMaxAreaTest" />
       <option name="METHOD_NAME" value="maxAreaFindsMaxAreaAmongHeights" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.leetcode.easy.arraysandstrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.arraysandstrings.LongestSubstringNoRepeatedCharsTest" />
-      <option name="METHOD_NAME" value="lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -306,20 +287,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.leetcode.easy.linkedlists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.easy.linkedlists" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.easy.linkedlists.ReverseLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseLinkedListTest.reverseListReturnsNullIfLinkedListIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.leetcode.easy.linkedlists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.easy.linkedlists" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.easy.linkedlists.ReverseLinkedListTest" />
+      <option name="METHOD_NAME" value="reverseListReturnsNullIfLinkedListIsNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" />
-      <item itemvalue="JUnit.ContiguousAreasInGridTest.findContiguousAreasReturnsCountOfContiguousAreasInGrid" />
       <item itemvalue="JUnit.ContiguousAreasInGridTest" />
       <item itemvalue="JUnit.FindMaxAreaTest.maxAreaFindsMaxAreaAmongHeights" />
       <item itemvalue="JUnit.MostCommonWordTest.mostCommonWordFindsMostCommonWordThatIsntBanned" />
+      <item itemvalue="JUnit.ReverseLinkedListTest.reverseListReturnsNullIfLinkedListIsNull" />
+      <item itemvalue="JUnit.ReverseLinkedListTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReverseLinkedListTest" />
+        <item itemvalue="JUnit.ReverseLinkedListTest.reverseListReturnsNullIfLinkedListIsNull" />
         <item itemvalue="JUnit.MostCommonWordTest.mostCommonWordFindsMostCommonWordThatIsntBanned" />
         <item itemvalue="JUnit.FindMaxAreaTest.maxAreaFindsMaxAreaAmongHeights" />
         <item itemvalue="JUnit.ContiguousAreasInGridTest" />
-        <item itemvalue="JUnit.ContiguousAreasInGridTest.findContiguousAreasReturnsCountOfContiguousAreasInGrid" />
-        <item itemvalue="JUnit.LongestSubstringNoRepeatedCharsTest.lengthOfLongestSubstringDetectsLongestSubstringWithNoRepeatedCharacters" />
       </list>
     </recent_temporary>
   </component>
@@ -350,14 +362,11 @@
       <workItem from="1577720970797" duration="15581000" />
       <workItem from="1578022467902" duration="7786000" />
       <workItem from="1578357108511" duration="4090000" />
-      <workItem from="1578717320960" duration="1914000" />
+      <workItem from="1578717320960" duration="2953000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContiguousAreasInGridTest_findContiguousAreasReturnsCountOfContiguousAreasInGrid - 2020.01.06 at 20h 16m 13s.xml">
-      <configuration name="ContiguousAreasInGridTest.findContiguousAreasReturnsCountOfContiguousAreasInGrid" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ContiguousAreasInGridTest_findContiguousAreasReturnsCountOfContiguousAreasInGrid - 2020.01.06 at 20h 18m 33s.xml">
       <configuration name="ContiguousAreasInGridTest.findContiguousAreasReturnsCountOfContiguousAreasInGrid" configurationId="JUnit" />
     </history-entry>
@@ -385,9 +394,12 @@
     <history-entry file="MostCommonWordTest_mostCommonWordFindsMostCommonWordThatIsntBanned - 2020.01.11 at 16h 23m 12s.xml">
       <configuration name="MostCommonWordTest.mostCommonWordFindsMostCommonWordThatIsntBanned" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ReverseLinkedListTest_reverseListReturnsNullIfLinkedListIsNull - 2020.01.12 at 12h 17m 56s.xml">
+      <configuration name="ReverseLinkedListTest.reverseListReturnsNullIfLinkedListIsNull" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83736000" />
+    <option name="totallyTimeSpent" value="84775000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -479,20 +491,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/IntersectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="59" column="64" selection-start-line="59" selection-start-column="64" selection-end-line="59" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/Intersection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/LoopDetectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
@@ -759,16 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/linkedlists/CopyListWithRandomPointer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#1858#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/arraysandstrings/ThreeSumNonUniqueTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -910,6 +898,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/easy/arraysandstrings/MostCommonWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#2125#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/easy/arraysandstrings/MostCommonWordTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -917,12 +916,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/easy/arraysandstrings/MostCommonWord.java">
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/linkedlists/CopyListWithRandomPointer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1858#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/easy/linkedlists/ReverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#871#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/easy/linkedlists/ReverseLinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
           </folding>
         </state>
       </provider>
