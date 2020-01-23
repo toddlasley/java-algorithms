@@ -2,14 +2,13 @@ package xyz.toddlasley.datastructures.graphs.searches;
 
 import org.junit.Test;
 import xyz.toddlasley.datastructures.graphs.GraphNode;
-import xyz.toddlasley.datastructures.trees.traversals.BreadthFirstTraversal;
 
 import static org.junit.Assert.*;
 
-public class DepthFirstSearchTest {
+public class BreadthFirstSearchTest {
 
     @Test
-    public void searchReturnsDepthFirstSearchOfGraph() {
+    public void searchReturnsBreadthFirstSearchOfGraph() {
         //   0
         //  /  \
         // 2    1
@@ -31,11 +30,11 @@ public class DepthFirstSearchTest {
         g0.adjacent.add(g1);
         g0.adjacent.add(g2);
 
-        assertEquals("0 1 3 4 5 2 ", DepthFirstSearch.search(g0));
+        assertEquals("0 1 2 3 4 5 ", BreadthFirstSearch.search(g0));
     }
 
     @Test
     public void searchReturnsEmptyStringForNullGraph() {
-        assertEquals("", DepthFirstSearch.search(null));
+        assertEquals("", BreadthFirstSearch.search(null));
     }
 }

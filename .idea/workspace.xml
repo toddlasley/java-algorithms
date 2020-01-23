@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/graphs/searches/DepthFirstSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/graphs/searches/DepthFirstSearchTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/graphs/GraphNode.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/graphs/searches/BreadthFirstSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="45">
+              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,22 +30,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/graphs/searches/DepthFirstSearch.java">
+        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/graphs/searches/BreadthFirstSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="421">
+              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/graphs/searches/DepthFirstSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/graphs/searches/DepthFirstSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+            <state relative-caret-position="127">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding>
                 <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,8 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/IntersectionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/LoopDetection.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/LoopDetectionTest.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/stacksandqueues/FixedMultiStackTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/stacksandqueues/FixedMultiStack.java" />
@@ -124,7 +137,9 @@
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/easy/linkedlists/ReverseLinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/graphs/GraphNode.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/graphs/searches/DepthFirstSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/graphs/searches/BreadthFirstSearch.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/graphs/searches/DepthFirstSearchTest.java" />
+        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/graphs/searches/BreadthFirstSearchTest.java" />
       </list>
     </option>
   </component>
@@ -185,6 +200,32 @@
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="searches" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -241,7 +282,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DepthFirstSearchTest">
+  <component name="RunManager" selected="JUnit.BreadthFirstSearchTest">
+    <configuration name="BreadthFirstSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.datastructures.graphs.searches.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.datastructures.graphs.searches" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.datastructures.graphs.searches.BreadthFirstSearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BreadthFirstSearchTest.searchReturnsBreadthFirstSearchOfGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.datastructures.graphs.searches.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.datastructures.graphs.searches" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.datastructures.graphs.searches.BreadthFirstSearchTest" />
+      <option name="METHOD_NAME" value="searchReturnsBreadthFirstSearchOfGraph" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DepthFirstSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
@@ -253,38 +325,6 @@
       <option name="PACKAGE_NAME" value="xyz.toddlasley.datastructures.graphs.searches" />
       <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.datastructures.graphs.searches.DepthFirstSearchTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindMaxAreaTest.maxAreaFindsMaxAreaAmongHeights" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.leetcode.easy.arraysandstrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.easy.arraysandstrings" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.easy.arraysandstrings.FindMaxAreaTest" />
-      <option name="METHOD_NAME" value="maxAreaFindsMaxAreaAmongHeights" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MostCommonWordTest.mostCommonWordFindsMostCommonWordThatIsntBanned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.leetcode.easy.arraysandstrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.easy.arraysandstrings" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.easy.arraysandstrings.MostCommonWordTest" />
-      <option name="METHOD_NAME" value="mostCommonWordFindsMostCommonWordThatIsntBanned" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -321,19 +361,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.FindMaxAreaTest.maxAreaFindsMaxAreaAmongHeights" />
-      <item itemvalue="JUnit.MostCommonWordTest.mostCommonWordFindsMostCommonWordThatIsntBanned" />
       <item itemvalue="JUnit.ReverseLinkedListTest.reverseListReturnsNullIfLinkedListIsNull" />
       <item itemvalue="JUnit.ReverseLinkedListTest" />
       <item itemvalue="JUnit.DepthFirstSearchTest" />
+      <item itemvalue="JUnit.BreadthFirstSearchTest.searchReturnsBreadthFirstSearchOfGraph" />
+      <item itemvalue="JUnit.BreadthFirstSearchTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BreadthFirstSearchTest" />
+        <item itemvalue="JUnit.BreadthFirstSearchTest.searchReturnsBreadthFirstSearchOfGraph" />
         <item itemvalue="JUnit.DepthFirstSearchTest" />
         <item itemvalue="JUnit.ReverseLinkedListTest" />
         <item itemvalue="JUnit.ReverseLinkedListTest.reverseListReturnsNullIfLinkedListIsNull" />
-        <item itemvalue="JUnit.MostCommonWordTest.mostCommonWordFindsMostCommonWordThatIsntBanned" />
-        <item itemvalue="JUnit.FindMaxAreaTest.maxAreaFindsMaxAreaAmongHeights" />
       </list>
     </recent_temporary>
   </component>
@@ -365,32 +405,11 @@
       <workItem from="1578022467902" duration="7786000" />
       <workItem from="1578357108511" duration="4090000" />
       <workItem from="1578717320960" duration="3432000" />
-      <workItem from="1579748576272" duration="1124000" />
+      <workItem from="1579748576272" duration="2660000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContiguousAreasInGridTest - 2020.01.06 at 20h 30m 15s.xml">
-      <configuration name="ContiguousAreasInGridTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindMaxAreaTest_maxAreaFindsMaxAreaAmongHeights - 2020.01.10 at 22h 47m 43s.xml">
-      <configuration name="FindMaxAreaTest.maxAreaFindsMaxAreaAmongHeights" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindMaxAreaTest_maxAreaFindsMaxAreaAmongHeights - 2020.01.10 at 22h 48m 48s.xml">
-      <configuration name="FindMaxAreaTest.maxAreaFindsMaxAreaAmongHeights" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindMaxAreaTest_maxAreaFindsMaxAreaAmongHeights - 2020.01.10 at 22h 49m 32s.xml">
-      <configuration name="FindMaxAreaTest.maxAreaFindsMaxAreaAmongHeights" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MostCommonWordTest_mostCommonWordFindsMostCommonWordThatIsntBanned - 2020.01.11 at 16h 22m 27s.xml">
-      <configuration name="MostCommonWordTest.mostCommonWordFindsMostCommonWordThatIsntBanned" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MostCommonWordTest_mostCommonWordFindsMostCommonWordThatIsntBanned - 2020.01.11 at 16h 23m 03s.xml">
-      <configuration name="MostCommonWordTest.mostCommonWordFindsMostCommonWordThatIsntBanned" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MostCommonWordTest_mostCommonWordFindsMostCommonWordThatIsntBanned - 2020.01.11 at 16h 23m 12s.xml">
-      <configuration name="MostCommonWordTest.mostCommonWordFindsMostCommonWordThatIsntBanned" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ReverseLinkedListTest_reverseListReturnsNullIfLinkedListIsNull - 2020.01.12 at 12h 17m 56s.xml">
       <configuration name="ReverseLinkedListTest.reverseListReturnsNullIfLinkedListIsNull" configurationId="JUnit" />
     </history-entry>
@@ -400,9 +419,30 @@
     <history-entry file="DepthFirstSearchTest - 2020.01.22 at 22h 21m 00s.xml">
       <configuration name="DepthFirstSearchTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DepthFirstSearchTest - 2020.01.22 at 22h 21m 49s.xml">
+      <configuration name="DepthFirstSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DepthFirstSearchTest - 2020.01.22 at 22h 36m 35s.xml">
+      <configuration name="DepthFirstSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DepthFirstSearchTest - 2020.01.22 at 22h 37m 28s.xml">
+      <configuration name="DepthFirstSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BreadthFirstSearchTest_searchReturnsBreadthFirstSearchOfGraph - 2020.01.22 at 22h 41m 21s.xml">
+      <configuration name="BreadthFirstSearchTest.searchReturnsBreadthFirstSearchOfGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BreadthFirstSearchTest_searchReturnsBreadthFirstSearchOfGraph - 2020.01.22 at 22h 41m 41s.xml">
+      <configuration name="BreadthFirstSearchTest.searchReturnsBreadthFirstSearchOfGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BreadthFirstSearchTest - 2020.01.22 at 22h 44m 47s.xml">
+      <configuration name="BreadthFirstSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BreadthFirstSearchTest - 2020.01.22 at 22h 45m 03s.xml">
+      <configuration name="BreadthFirstSearchTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86378000" />
+    <option name="totallyTimeSpent" value="87914000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -494,23 +534,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/arraysandstrings/RotateMatrixTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/stacksandqueues/FixedMultiStackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="51" lean-forward="true" selection-start-line="79" selection-start-column="51" selection-end-line="80" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/DeleteDuplicates.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
@@ -943,18 +966,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/graphs/searches/DepthFirstSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/graphs/searches/DepthFirstSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+        <state relative-caret-position="127">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
             <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/graphs/searches/BreadthFirstSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/graphs/searches/BreadthFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
