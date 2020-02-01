@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d626460a-4487-4f85-867e-a73147b6cbee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/graphs/searches/DepthFirstSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/graphs/searches/DepthFirstSearchTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,49 +16,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/treesandgraphs/SymmetricTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#1716#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/graphs/searches/BreadthFirstSearch.java">
+        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/treesandgraphs/SymmetricTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="403">
+              <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/graphs/searches/BreadthFirstSearchTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/graphs/searches/DepthFirstSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/graphs/searches/DepthFirstSearchTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-              <folding>
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,8 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/linkedlists/LoopDetectionTest.java" />
-        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/stacksandqueues/FixedMultiStackTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/stacksandqueues/FixedMultiStack.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/stacksandqueues/StackWithMin.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/stacksandqueues/StackWithMinTest.java" />
@@ -140,6 +115,8 @@
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/graphs/searches/BreadthFirstSearch.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/graphs/searches/DepthFirstSearchTest.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/graphs/searches/BreadthFirstSearchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/treesandgraphs/SymmetricTree.java" />
+        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/treesandgraphs/SymmetricTreeTest.java" />
       </list>
     </option>
   </component>
@@ -156,6 +133,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,24 +158,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="graphs" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="graphs" type="462c0819:PsiDirectoryNode" />
-              <item name="searches" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="treesandgraphs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -208,21 +187,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="searches" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -232,8 +196,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,22 +213,22 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="xyz.toddlasley.leetcode.medium.treesandgraphs" />
       <recent name="xyz.toddlasley.datastructures.graphs.searches" />
       <recent name="xyz.toddlasley.leetcode.easy.linkedlists" />
       <recent name="xyz.toddlasley.leetcode.easy.arraysandstrings" />
       <recent name="xyz.toddlasley.random.arraysandstrings" />
-      <recent name="xyz.toddlasley.leetcode.medium.arraysandstrings" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/lib" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="xyz.toddlasley.leetcode.easy.arraysandstrings" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lib" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
   </component>
@@ -282,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BreadthFirstSearchTest">
+  <component name="RunManager" selected="JUnit.SymmetricTreeTest.isSymmetricAppropriatelyIdentfiesSymmetricTrees">
     <configuration name="BreadthFirstSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
@@ -329,51 +291,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SymmetricTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.leetcode.easy.linkedlists.*" />
+          <option name="PATTERN" value="xyz.toddlasley.leetcode.medium.treesandgraphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.easy.linkedlists" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.easy.linkedlists.ReverseLinkedListTest" />
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.medium.treesandgraphs" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.treesandgraphs.SymmetricTreeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedListTest.reverseListReturnsNullIfLinkedListIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SymmetricTreeTest.isSymmetricAppropriatelyIdentfiesSymmetricTrees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.leetcode.easy.linkedlists.*" />
+          <option name="PATTERN" value="xyz.toddlasley.leetcode.medium.treesandgraphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.easy.linkedlists" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.easy.linkedlists.ReverseLinkedListTest" />
-      <option name="METHOD_NAME" value="reverseListReturnsNullIfLinkedListIsNull" />
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.medium.treesandgraphs" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.treesandgraphs.SymmetricTreeTest" />
+      <option name="METHOD_NAME" value="isSymmetricAppropriatelyIdentfiesSymmetricTrees" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ReverseLinkedListTest.reverseListReturnsNullIfLinkedListIsNull" />
-      <item itemvalue="JUnit.ReverseLinkedListTest" />
       <item itemvalue="JUnit.DepthFirstSearchTest" />
       <item itemvalue="JUnit.BreadthFirstSearchTest.searchReturnsBreadthFirstSearchOfGraph" />
       <item itemvalue="JUnit.BreadthFirstSearchTest" />
+      <item itemvalue="JUnit.SymmetricTreeTest" />
+      <item itemvalue="JUnit.SymmetricTreeTest.isSymmetricAppropriatelyIdentfiesSymmetricTrees" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SymmetricTreeTest.isSymmetricAppropriatelyIdentfiesSymmetricTrees" />
+        <item itemvalue="JUnit.SymmetricTreeTest" />
         <item itemvalue="JUnit.BreadthFirstSearchTest" />
         <item itemvalue="JUnit.BreadthFirstSearchTest.searchReturnsBreadthFirstSearchOfGraph" />
         <item itemvalue="JUnit.DepthFirstSearchTest" />
-        <item itemvalue="JUnit.ReverseLinkedListTest" />
-        <item itemvalue="JUnit.ReverseLinkedListTest.reverseListReturnsNullIfLinkedListIsNull" />
       </list>
     </recent_temporary>
   </component>
@@ -405,20 +367,12 @@
       <workItem from="1578022467902" duration="7786000" />
       <workItem from="1578357108511" duration="4090000" />
       <workItem from="1578717320960" duration="3432000" />
-      <workItem from="1579748576272" duration="2660000" />
+      <workItem from="1579748576272" duration="2700000" />
+      <workItem from="1580529840389" duration="987000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReverseLinkedListTest_reverseListReturnsNullIfLinkedListIsNull - 2020.01.12 at 12h 17m 56s.xml">
-      <configuration name="ReverseLinkedListTest.reverseListReturnsNullIfLinkedListIsNull" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReverseLinkedListTest - 2020.01.12 at 12h 21m 09s.xml">
-      <configuration name="ReverseLinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DepthFirstSearchTest - 2020.01.22 at 22h 21m 00s.xml">
-      <configuration name="DepthFirstSearchTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DepthFirstSearchTest - 2020.01.22 at 22h 21m 49s.xml">
       <configuration name="DepthFirstSearchTest" configurationId="JUnit" />
     </history-entry>
@@ -440,9 +394,18 @@
     <history-entry file="BreadthFirstSearchTest - 2020.01.22 at 22h 45m 03s.xml">
       <configuration name="BreadthFirstSearchTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SymmetricTreeTest - 2020.01.31 at 23h 15m 26s.xml">
+      <configuration name="SymmetricTreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SymmetricTreeTest - 2020.01.31 at 23h 18m 31s.xml">
+      <configuration name="SymmetricTreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SymmetricTreeTest - 2020.01.31 at 23h 19m 14s.xml">
+      <configuration name="SymmetricTreeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87914000" />
+    <option name="totallyTimeSpent" value="88941000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -457,7 +420,7 @@
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3090129" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31330472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -534,26 +497,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/linkedlists/DeleteDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="53" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#2527#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/stacksandqueues/FixedMultiStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#1778#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/stacksandqueues/StackWithMinTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -964,6 +907,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/graphs/searches/BreadthFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/graphs/searches/BreadthFirstSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/graphs/searches/DepthFirstSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -982,24 +947,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/graphs/searches/BreadthFirstSearchTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/treesandgraphs/SymmetricTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        <state relative-caret-position="120">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding>
+            <element signature="e#0#1716#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/graphs/searches/BreadthFirstSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/treesandgraphs/SymmetricTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="403">
+          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
           </folding>
         </state>
       </provider>
