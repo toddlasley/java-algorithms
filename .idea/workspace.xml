@@ -16,20 +16,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/hard/TrappingRainWater.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/treesandgraphs/ZigZagLevelTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <caret line="2" column="89" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
+              <folding>
+                <element signature="e#0#1812#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/hard/TrappingRainWaterTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/treesandgraphs/ZigZagLevelTraversalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="555">
+              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/treesandgraphs/SymmetricTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#1716#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,9 +66,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>0</find>
+      <find>TreeNode</find>
+      <find>, null, null</find>
     </findStrings>
     <replaceStrings>
       <replace>1</replace>
+      <replace>ZigZagLevelTraversal.TreeNode</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -58,8 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/stacksandqueues/StackWithMinTest.java" />
-        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/stacksandqueues/SetOfStacks.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/stacksandqueues/SetOfStacksTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/stacksandqueues/MyQueue.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/stacksandqueues/MyQueueTest.java" />
@@ -107,8 +127,10 @@
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/graphs/searches/BreadthFirstSearchTest.java" />
         <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/treesandgraphs/SymmetricTree.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/treesandgraphs/SymmetricTreeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/hard/TrappingRainWater.java" />
         <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/hard/TrappingRainWaterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/hard/TrappingRainWater.java" />
+        <option value="$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/treesandgraphs/ZigZagLevelTraversalTest.java" />
+        <option value="$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/treesandgraphs/ZigZagLevelTraversal.java" />
       </list>
     </option>
   </component>
@@ -142,27 +164,6 @@
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="hard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -170,6 +171,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="trees" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="toddlasley" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="trees" type="462c0819:PsiDirectoryNode" />
+              <item name="traversals" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -197,21 +222,22 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="xyz.toddlasley.leetcode.medium.treesandgraphs" />
+      <recent name="xyz.toddlasley.leetcode.hard" />
       <recent name="xyz.toddlasley.datastructures.graphs.searches" />
       <recent name="xyz.toddlasley.leetcode.easy.linkedlists" />
       <recent name="xyz.toddlasley.leetcode.easy.arraysandstrings" />
-      <recent name="xyz.toddlasley.random.arraysandstrings" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lib" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="xyz.toddlasley.leetcode" />
       <recent name="xyz.toddlasley.leetcode.easy.arraysandstrings" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/lib" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
   </component>
@@ -227,22 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TrappingRainWaterTest">
-    <configuration name="BreadthFirstSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.toddlasley.datastructures.graphs.searches.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xyz.toddlasley.datastructures.graphs.searches" />
-      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.datastructures.graphs.searches.BreadthFirstSearchTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ZigZagLevelTraversalTest">
     <configuration name="SymmetricTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-algorithms" />
       <extension name="coverage">
@@ -305,20 +316,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZigZagLevelTraversalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.toddlasley.leetcode.medium.treesandgraphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.toddlasley.leetcode.medium.treesandgraphs" />
+      <option name="MAIN_CLASS_NAME" value="xyz.toddlasley.leetcode.medium.treesandgraphs.ZigZagLevelTraversalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.BreadthFirstSearchTest" />
       <item itemvalue="JUnit.SymmetricTreeTest" />
       <item itemvalue="JUnit.SymmetricTreeTest.isSymmetricAppropriatelyIdentfiesSymmetricTrees" />
       <item itemvalue="JUnit.TrappingRainWaterTest.trapSuccessfullyCalculatesTrappedRainWater" />
       <item itemvalue="JUnit.TrappingRainWaterTest" />
+      <item itemvalue="JUnit.ZigZagLevelTraversalTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ZigZagLevelTraversalTest" />
         <item itemvalue="JUnit.TrappingRainWaterTest" />
         <item itemvalue="JUnit.TrappingRainWaterTest.trapSuccessfullyCalculatesTrappedRainWater" />
         <item itemvalue="JUnit.SymmetricTreeTest.isSymmetricAppropriatelyIdentfiesSymmetricTrees" />
         <item itemvalue="JUnit.SymmetricTreeTest" />
-        <item itemvalue="JUnit.BreadthFirstSearchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -352,23 +378,11 @@
       <workItem from="1578717320960" duration="3432000" />
       <workItem from="1579748576272" duration="2700000" />
       <workItem from="1580529840389" duration="1248000" />
-      <workItem from="1580617086716" duration="241000" />
+      <workItem from="1580617086716" duration="2157000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DepthFirstSearchTest - 2020.01.22 at 22h 36m 35s.xml">
-      <configuration name="DepthFirstSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DepthFirstSearchTest - 2020.01.22 at 22h 37m 28s.xml">
-      <configuration name="DepthFirstSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BreadthFirstSearchTest_searchReturnsBreadthFirstSearchOfGraph - 2020.01.22 at 22h 41m 21s.xml">
-      <configuration name="BreadthFirstSearchTest.searchReturnsBreadthFirstSearchOfGraph" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BreadthFirstSearchTest_searchReturnsBreadthFirstSearchOfGraph - 2020.01.22 at 22h 41m 41s.xml">
-      <configuration name="BreadthFirstSearchTest.searchReturnsBreadthFirstSearchOfGraph" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BreadthFirstSearchTest - 2020.01.22 at 22h 44m 47s.xml">
       <configuration name="BreadthFirstSearchTest" configurationId="JUnit" />
     </history-entry>
@@ -387,9 +401,21 @@
     <history-entry file="SymmetricTreeTest_isSymmetricAppropriatelyIdentfiesSymmetricTrees - 2020.01.31 at 23h 20m 31s.xml">
       <configuration name="SymmetricTreeTest.isSymmetricAppropriatelyIdentfiesSymmetricTrees" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TrappingRainWaterTest_trapSuccessfullyCalculatesTrappedRainWater - 2020.02.01 at 23h 21m 18s.xml">
+      <configuration name="TrappingRainWaterTest.trapSuccessfullyCalculatesTrappedRainWater" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrappingRainWaterTest - 2020.02.01 at 23h 22m 10s.xml">
+      <configuration name="TrappingRainWaterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZigZagLevelTraversalTest - 2020.02.02 at 00h 13m 31s.xml">
+      <configuration name="ZigZagLevelTraversalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZigZagLevelTraversalTest - 2020.02.02 at 00h 13m 53s.xml">
+      <configuration name="ZigZagLevelTraversalTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89443000" />
+    <option name="totallyTimeSpent" value="91359000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -481,29 +507,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/stacksandqueues/SetOfStacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#1740#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/ctci/stacksandqueues/SetOfStacksTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/ctci/stacksandqueues/MyQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -574,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/traversals/InOrderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/PreOrderTraversalTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-473">
@@ -617,18 +613,6 @@
           <folding>
             <element signature="e#0#1229#0" expanded="true" />
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/InOrderTraversalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4288#4289#0" expanded="true" />
-            <element signature="e#4347#4348#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -907,17 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/treesandgraphs/SymmetricTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#1716#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/treesandgraphs/SymmetricTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -929,17 +902,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/hard/TrappingRainWater.java">
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/hard/TrappingRainWaterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="135">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/hard/TrappingRainWaterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/hard/TrappingRainWater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#1338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/treesandgraphs/SymmetricTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#1716#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/datastructures/trees/traversals/InOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/datastructures/trees/traversals/InOrderTraversalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="103" column="94" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="103" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4288#4289#0" expanded="true" />
+            <element signature="e#4347#4348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/xyz/toddlasley/leetcode/medium/treesandgraphs/ZigZagLevelTraversalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/xyz/toddlasley/leetcode/medium/treesandgraphs/ZigZagLevelTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="89" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#1812#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
