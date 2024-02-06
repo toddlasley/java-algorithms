@@ -1,5 +1,6 @@
 # Compiled class file
 *.class
+src/target/*
 
 # Log file
 *.log
@@ -23,3 +24,6 @@ hs_err_pid*
 
 # send lib and contents
 !src/lib/*
+
+# IntelliJ
+.idea/*
