@@ -1,4 +1,4 @@
-package xyz.toddlasley.interviews.arraysandstrings;
+package xyz.toddlasley.random.arraysandstrings;
 
 import java.util.Deque;
 import java.util.LinkedList;

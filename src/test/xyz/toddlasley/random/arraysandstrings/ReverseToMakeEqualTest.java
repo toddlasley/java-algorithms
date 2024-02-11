@@ -1,6 +1,7 @@
-package xyz.toddlasley.interviews.arraysandstrings;
+package xyz.toddlasley.random.arraysandstrings;
 
 import org.junit.Test;
+import xyz.toddlasley.random.arraysandstrings.ReverseToMakeEqual;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

@@ -1,4 +1,4 @@
-package xyz.toddlasley.interviews.arraysandstrings;
+package xyz.toddlasley.random.arraysandstrings;
 
 public class RotationalCipher {
     private static int ALPHABET_COUNT = 26;
