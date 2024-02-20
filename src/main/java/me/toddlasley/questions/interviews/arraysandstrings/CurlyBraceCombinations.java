@@ -1,4 +1,5 @@
-// Curly braces can be used in programming to provide scope-limit. Write a function to print all valid( properly opened and closed) combinations of n-pairs of curly braces.
+// Curly braces can be used in programming to provide scope-limit.
+// Write a function to print all valid( properly opened and closed) combinations of n-pairs of curly braces.
 // Example:
 // input: 1 output: {}
 // input: 2 output: {}{}, {{}}
@@ -7,101 +8,29 @@
 package me.toddlasley.questions.interviews.arraysandstrings;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class CurlyBraceCombinations {
 
+    public static List<String> getCurlyBraceCombinations(int n) {
+        final List<String> result = new ArrayList<>();
 
-    public static void main(String[] args) {
-        System.out.println(solution(3).size());
-//        System.out.println(solution(3).get(0));
-//        System.out.println(solution(3).get(1));
-    }
-
-    public static Set<String> solution(int n) {
-        //    final List<String> result = new ArrayList<>();
-        //    final StringBuilder sb = new StringBuilder();
-        //    for (int i = 0; i < n; i++) {
-        //        sb.append("{}");
-
-        //    }
-
-        //    result.add(sb.toString());
-
-        //    String outward = "";
-
-        //    for (int i = 0; i < n; i++) {
-        //        outward = "{" + outward + "}";
-        //    }
-
-        //    result.add(outward);
-
-        //    return result;
-
-        final Set<String> result = new HashSet<>();
-        result.add("{}");
-
-        for (int i = 0; i < n; i++) {
-            solutionHelper(result);
-        }
+        curlyCombinationsHelper("", n, n, result);
 
         return result;
     }
 
-    private static void solutionHelper(final Set<String> result) {
+    private static void curlyCombinationsHelper(String current, int left, int right, final List<String> combinations) {
+        if (left == 0 && right == 0) {
+            combinations.add(current);
+        } else {
+            if (left > 0) {
+                curlyCombinationsHelper(current + "{", left - 1, right, combinations);
+            }
 
-        List<String> temp = new ArrayList<>();
-
-        for(String x : result) {
-            String sequence = x + "{}";
-
-            String outward = "{" + x + "}";
-
-            String ahead = "{}" + x;
-
-            String behind = x + "{}";
-
-            temp.add(sequence);
-            temp.add(outward);
-            temp.add(ahead);
-            temp.add(behind);
+            if (right > left) {
+                curlyCombinationsHelper(current + "}", left, right - 1, combinations);
+            }
         }
-
-        result.clear();
-
-        result.addAll(temp);
     }
-
-//    private static void solutionHelper(int n, final List<String> result) {
-//        if (n == 0) {
-//            return;
-//        }
-
-//        List<String> temp = new ArrayList<>();
-
-//        for (int i = 0; i < result.size(); i++) {
-//            String x = result.get(i);
-
-//            String sequence = x + "{}";
-
-//            String outward = "{" + x + "}";
-
-//            String ahead = "{}" + x;
-
-//            String behind = x + "{}";
-
-//            temp.add(sequence);
-//            temp.add(outward);
-//            temp.add(ahead);
-//            temp.add(behind);
-//        }
-
-//        result.clear();
-
-//        result.addAll(temp);
-
-//        solutionHelper(n--, result);
-//    }
 }
