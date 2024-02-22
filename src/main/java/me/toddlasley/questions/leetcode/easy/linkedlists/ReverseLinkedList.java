@@ -1,7 +1,6 @@
+package me.toddlasley.questions.leetcode.easy.linkedlists;
 // Reverse a singly linked list.
 // Original: https://leetcode.com/explore/interview/card/amazon/77/linked-list/2979/
-
-package me.toddlasley.questions.leetcode.easy.linkedlists;
 
 public class ReverseLinkedList {
     public static class ListNode {
@@ -13,6 +12,26 @@ public class ReverseLinkedList {
         }
     }
 
+    public static ListNode reverseListConstantSpace(ListNode head) {
+        if (head == null) {
+            return head;
+        }
+
+        ListNode prev = null;
+        ListNode current = head;
+
+        while (current != null) {
+            ListNode temp = current.next;
+            current.next = prev;
+            prev = current;
+            current = temp;
+        }
+
+        head.next = current;
+        return prev;
+    }
+
+    // 1 -> 2 -> 3 -> 4
     public static ListNode reverseList(ListNode head) {
         if ( head == null || head.next == null ) {
             return head;

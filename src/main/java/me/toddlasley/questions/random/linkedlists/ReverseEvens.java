@@ -11,7 +11,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
-public class ReverseOrder {
+public class ReverseEvens {
     public static class Node {
         int data;
         Node next;
